@@ -1,0 +1,2681 @@
+<html>
+<head>
+<title>Jobseeker Profile</title>
+<link href="http://www.hirist.com/resources/css/stylesheet.min.css?ver=1435688042" type="text/css" rel="Stylesheet" />
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+ <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css' />
+</head>
+<body>
+<body> <!--<![endif]-->
+<input type="hidden" id="tgid" value="0"/>
+<input type="hidden" id="catid" value="0"/>
+<input type="hidden" id="jobid" value="0"/>
+<div id="app-alert" class="full_container alertbox pull-left"></div>
+        <div class="clearfix"></div>
+        <div id="wrapper" class=" "  style="" >
+                                         <div id="page-content-wrapper" style="" class="" style="background-color: transparent; min-height:100%;">
+                <div class="clearfix"></div>
+                
+                <div class="clearfix"></div>
+                                <div class="page-content inset">
+
+<div class="col-md-12">
+        <h2 class="heading mt0 mb20">Resume Snapshot</h2>
+    <div class="clearfix"></div>
+    <div class="row">
+        <!--<div class="profile-steps mb20 hidden-xs col-md-10"> <span class="steps step1"> </span></div>-->
+        <div class="resummain mb20 hidden-xs col-md-10">
+                <ul class="reslis pd0 mb0">
+                <li><a href="viewuserprofile.php" class="active" >1. Personal Details</a></li>
+                <li><a href="javascript:void(0);" class="active" >2. Education</a></li>
+                <li><a href="javascript:void(0);" class="active" >3. Professional Details</a></li>
+                <li><a href="#" class="lastch " >4. Upload</a></li>
+            </ul>
+        </div>
+        <div class="pull-left mt10 col-xs-12 col-md-2 text-right">
+            <a href="#">back to home</a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="panel-group submitresume registrationPage" id="accordion">
+
+        <div class="panel panel-default ppe"  >
+         <div class="panel-heading pull-left full_container mb20" data-toggle="collapse" >
+
+                <h4 class="panel-title pull-left">
+                    <a>Personal Details</a>
+                </h4>
+                <span class="pull-right text-warning">* All fields are Mandatory</span>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <form class="form-horizontal applyform" id="registeruser" name="registeruser" action="controller.php" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="submitOnce" id="submitOnce" value=0 />
+                    <input type="hidden" name="source"  value="" />
+                    <input type="hidden" name="flowtype" id="flowtype" value="3"/>
+                    <input type="hidden" name="redirectto" id="redirectto" value=""/>
+                    <input type="hidden" name="pd" id="pd" value=""/>
+                    <input type="hidden" name="ed" id="ed" value=""/>
+                    <input type="hidden" name="pro" id="pro" value=""/>
+                    <input type="hidden" name="ur" id="ur" value=""/>
+                    <div class="panel-body">
+                        <div class="pull-left col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Name</label>
+                                <div class="col-md-7 col-sm-7">
+                                    <input class="form-control input-md" type="text" id="name" name="name" value=""  />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Phone</label>
+                                <div class="col-md-7 col-sm-7">
+                                    <input class="form-control input-md" id="phone" size="40" accesskey="n"  name="phone" value="" type="text" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                               <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">date of Birth</label>
+                                <div class="col-md-7 col-sm-7">
+                                    <input class="form-control input-md" id="dob" size="40" accesskey="n"  name="dob" value="" type="date" >
+                                </div>
+                            </div>
+                                <!--<div class="col-md-2 col-sm-2 mbx10">
+                                                                        
+    <select name="dob_day" id='dob_day'
+            class="form-control" onchange="">
+                            <option value='0' selected>
+                DD            </option>
+                        <option value='1' >
+                1            </option>
+                        <option value='2' >
+                2            </option>
+                        <option value='3' >
+                3            </option>
+                        <option value='4' >
+                4            </option>
+                        <option value='5' >
+                5            </option>
+                        <option value='6' >
+                6            </option>
+                        <option value='7' >
+                7            </option>
+                        <option value='8' >
+                8            </option>
+                        <option value='9' >
+                9            </option>
+                        <option value='10' >
+                10            </option>
+                        <option value='11' >
+                11            </option>
+                        <option value='12' >
+                12            </option>
+                        <option value='13' >
+                13            </option>
+                        <option value='14' >
+                14            </option>
+                        <option value='15' >
+                15            </option>
+                        <option value='16' >
+                16            </option>
+                        <option value='17' >
+                17            </option>
+                        <option value='18' >
+                18            </option>
+                        <option value='19' >
+                19            </option>
+                        <option value='20' >
+                20            </option>
+                        <option value='21' >
+                21            </option>
+                        <option value='22' >
+                22            </option>
+                        <option value='23' >
+                23            </option>
+                        <option value='24' >
+                24            </option>
+                        <option value='25' >
+                25            </option>
+                        <option value='26' >
+                26            </option>
+                        <option value='27' >
+                27            </option>
+                        <option value='28' >
+                28            </option>
+                        <option value='29' >
+                29            </option>
+                        <option value='30' >
+                30            </option>
+                        <option value='31' >
+                31            </option>
+                </select>
+                                    </div>
+                                <div class="col-md-2 col-sm-2 pdl0">
+                                    
+    <select name="dob_month" id='dob_month'
+            class="form-control" onchange="">
+                            <option value='0' selected>
+                MM            </option>
+                        <option value='1' >
+                Jan            </option>
+                        <option value='2' >
+                Feb            </option>
+                        <option value='3' >
+                Mar            </option>
+                        <option value='4' >
+                Apr            </option>
+                        <option value='5' >
+                May            </option>
+                        <option value='6' >
+                Jun            </option>
+                        <option value='7' >
+                Jul            </option>
+                        <option value='8' >
+                Aug            </option>
+                        <option value='9' >
+                Sep            </option>
+                        <option value='10' >
+                Oct            </option>
+                        <option value='11' >
+                Nov            </option>
+                        <option value='12' >
+                Dec            </option>
+                </select>
+                                    </div>
+                                <div class="col-md-3 col-sm-3 pdl0">
+                                                                        
+    <select name="dob_year" id='dob_year'
+            class="form-control" onchange="">
+                            <option value='0' selected>
+                YYYY            </option>
+                        <option value='2015' >
+                2015            </option>
+                        <option value='2014' >
+                2014            </option>
+                        <option value='2013' >
+                2013            </option>
+                        <option value='2012' >
+                2012            </option>
+                        <option value='2011' >
+                2011            </option>
+                        <option value='2010' >
+                2010            </option>
+                        <option value='2009' >
+                2009            </option>
+                        <option value='2008' >
+                2008            </option>
+                        <option value='2007' >
+                2007            </option>
+                        <option value='2006' >
+                2006            </option>
+                        <option value='2005' >
+                2005            </option>
+                        <option value='2004' >
+                2004            </option>
+                        <option value='2003' >
+                2003            </option>
+                        <option value='2002' >
+                2002            </option>
+                        <option value='2001' >
+                2001            </option>
+                        <option value='2000' >
+                2000            </option>
+                        <option value='1999' >
+                1999            </option>
+                        <option value='1998' >
+                1998            </option>
+                        <option value='1997' >
+                1997            </option>
+                        <option value='1996' >
+                1996            </option>
+                        <option value='1995' >
+                1995            </option>
+                        <option value='1994' >
+                1994            </option>
+                        <option value='1993' >
+                1993            </option>
+                        <option value='1992' >
+                1992            </option>
+                        <option value='1991' >
+                1991            </option>
+                        <option value='1990' >
+                1990            </option>
+                        <option value='1989' >
+                1989            </option>
+                        <option value='1988' >
+                1988            </option>
+                        <option value='1987' >
+                1987            </option>
+                        <option value='1986' >
+                1986            </option>
+                        <option value='1985' >
+                1985            </option>
+                        <option value='1984' >
+                1984            </option>
+                        <option value='1983' >
+                1983            </option>
+                        <option value='1982' >
+                1982            </option>
+                        <option value='1981' >
+                1981            </option>
+                        <option value='1980' >
+                1980            </option>
+                        <option value='1979' >
+                1979            </option>
+                        <option value='1978' >
+                1978            </option>
+                        <option value='1977' >
+                1977            </option>
+                        <option value='1976' >
+                1976            </option>
+                        <option value='1975' >
+                1975            </option>
+                        <option value='1974' >
+                1974            </option>
+                        <option value='1973' >
+                1973            </option>
+                        <option value='1972' >
+                1972            </option>
+                        <option value='1971' >
+                1971            </option>
+                        <option value='1970' >
+                1970            </option>
+                        <option value='1969' >
+                1969            </option>
+                        <option value='1968' >
+                1968            </option>
+                        <option value='1967' >
+                1967            </option>
+                        <option value='1966' >
+                1966            </option>
+                        <option value='1965' >
+                1965            </option>
+                        <option value='1964' >
+                1964            </option>
+                        <option value='1963' >
+                1963            </option>
+                        <option value='1962' >
+                1962            </option>
+                        <option value='1961' >
+                1961            </option>
+                        <option value='1960' >
+                1960            </option>
+                        <option value='1959' >
+                1959            </option>
+                        <option value='1958' >
+                1958            </option>
+                        <option value='1957' >
+                1957            </option>
+                        <option value='1956' >
+                1956            </option>
+                        <option value='1955' >
+                1955            </option>
+                        <option value='1954' >
+                1954            </option>
+                        <option value='1953' >
+                1953            </option>
+                        <option value='1952' >
+                1952            </option>
+                        <option value='1951' >
+                1951            </option>
+                        <option value='1950' >
+                1950            </option>
+                        <option value='1949' >
+                1949            </option>
+                        <option value='1948' >
+                1948            </option>
+                        <option value='1947' >
+                1947            </option>
+                        <option value='1946' >
+                1946            </option>
+                        <option value='1945' >
+                1945            </option>
+                        <option value='1944' >
+                1944            </option>
+                        <option value='1943' >
+                1943            </option>
+                        <option value='1942' >
+                1942            </option>
+                        <option value='1941' >
+                1941            </option>
+                </select>
+                                    </div>-->
+
+                                <!--                                <div class="input-group date col-md-7" id="dp3" data-date-format="dd-mm-yyyy">
+                                                                    <input class="form-control input-md" type="text" name="dob" id="dob" value="">
+                                                                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                                </div>
+                            </div>-->
+                            <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Current Location</label>
+                                <div class="col-md-7 col-sm-7">
+                                                                        
+    <select name="cloc" id='cloc'
+            class="form-control" onchange="">
+                            <option value='' selected>Select</option>
+                        <optgroup class="optGroup" label="--Metropolitan Cities--" value="-1">
+                                    <option value='1' >
+                        Ahmedabad                    </option>
+                                    <option value='2' >
+                        Bangalore                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='3' >
+                        Chennai                    </option>
+                                    <option value='221' >
+                        Delhi                    </option>
+                                    <option value='5' >
+                        Gurgaon                    </option>
+                                    <option value='6' >
+                        Hyderabad                    </option>
+                                    <option value='7' >
+                        Kolkata                    </option>
+                                    <option value='8' >
+                        Mumbai                    </option>
+                                    <option value='9' >
+                        Noida                    </option>
+                                    <option value='10' >
+                        Pune                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Andhra Pradesh------" value="-1">
+                                    <option value='62' >
+                        Guntur                    </option>
+                                    <option value='82' >
+                        Kakinada                    </option>
+                                    <option value='98' >
+                        Kurnool                    </option>
+                                    <option value='113' >
+                        Nellore                    </option>
+                                    <option value='114' >
+                        Nizamabad                    </option>
+                                    <option value='129' >
+                        Rajamundry                    </option>
+                                    <option value='150' >
+                        Tirupati                    </option>
+                                    <option value='160' >
+                        Vijayawada                    </option>
+                                    <option value='161' >
+                        Visakhapatnam                    </option>
+                                    <option value='162' >
+                        Warangal                    </option>
+                                    <option value='222' >
+                        Anantapur                    </option>
+                                    <option value='223' >
+                        Guntakal                    </option>
+                                    <option value='6' >
+                        Hyderabad                    </option>
+                                    <option value='225' >
+                        Rajahmundry                    </option>
+                                    <option value='226' >
+                        Secunderabad                    </option>
+                                    <option value='227' >
+                        Andhra Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Arunachal Pradesh------" value="-1">
+                                    <option value='72' >
+                        Itanagar                    </option>
+                                    <option value='228' >
+                        Arunachal Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Assam------" value="-1">
+                                    <option value='51' >
+                        Dispur                    </option>
+                                    <option value='63' >
+                        Guwahati                    </option>
+                                    <option value='140' >
+                        Silchar                    </option>
+                                    <option value='229' >
+                        Assam - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Bihar------" value="-1">
+                                    <option value='34' >
+                        Bhilaigarh                    </option>
+                                    <option value='122' >
+                        Patna                    </option>
+                                    <option value='230' >
+                        Bihar - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Chhattisgarh------" value="-1">
+                                    <option value='26' >
+                        Bhagalpur                    </option>
+                                    <option value='39' >
+                        Bilaspur                    </option>
+                                    <option value='128' >
+                        Raipur                    </option>
+                                    <option value='231' >
+                        Bhillai                    </option>
+                                    <option value='232' >
+                        Chhattisgarh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Goa------" value="-1">
+                                    <option value='59' >
+                        Goa                    </option>
+                                    <option value='233' >
+                        Panaji                    </option>
+                                    <option value='234' >
+                        Panjim                    </option>
+                                    <option value='235' >
+                        Vasco Da Gama                    </option>
+                                    <option value='236' >
+                        Goa - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Gujarat------" value="-1">
+                                    <option value='21' >
+                        Anand                    </option>
+                                    <option value='22' >
+                        Ankleshwar                    </option>
+                                    <option value='28' >
+                        Baroda                    </option>
+                                    <option value='31' >
+                        Bharuch                    </option>
+                                    <option value='33' >
+                        Bhavnagar                    </option>
+                                    <option value='37' >
+                        Bhuj                    </option>
+                                    <option value='56' >
+                        Gandhinagar                    </option>
+                                    <option value='79' >
+                        Jamnagar                    </option>
+                                    <option value='83' >
+                        Kandla                    </option>
+                                    <option value='124' >
+                        Porbandar                    </option>
+                                    <option value='130' >
+                        Rajkot                    </option>
+                                    <option value='145' >
+                        Surat                    </option>
+                                    <option value='155' >
+                        Vadodara                    </option>
+                                    <option value='156' >
+                        Valsad                    </option>
+                                    <option value='157' >
+                        Vapi                    </option>
+                                    <option value='1' >
+                        Ahmedabad                    </option>
+                                    <option value='238' >
+                        Gir                    </option>
+                                    <option value='239' >
+                        Gujarat - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Haryana------" value="-1">
+                                    <option value='19' >
+                        Ambala                    </option>
+                                    <option value='55' >
+                        Faridabad                    </option>
+                                    <option value='66' >
+                        Hisar                    </option>
+                                    <option value='86' >
+                        Karnal                    </option>
+                                    <option value='99' >
+                        Kurukshetra                    </option>
+                                    <option value='117' >
+                        Panipat                    </option>
+                                    <option value='132' >
+                        Rohtak                    </option>
+                                    <option value='143' >
+                        Sonipat / Sonepat                    </option>
+                                    <option value='164' >
+                        Yamunanagar                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='5' >
+                        Gurgaon                    </option>
+                                    <option value='242' >
+                        Haryana - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Himachal Pradesh------" value="-1">
+                                    <option value='25' >
+                        Baddi                    </option>
+                                    <option value='45' >
+                        Dalhousie                    </option>
+                                    <option value='49' >
+                        Dharamsala                    </option>
+                                    <option value='97' >
+                        Kulu/Manali                    </option>
+                                    <option value='137' >
+                        Shimla                    </option>
+                                    <option value='244' >
+                        Himachal Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Jammu & Kashmir------" value="-1">
+                                    <option value='78' >
+                        Jammu                    </option>
+                                    <option value='144' >
+                        Srinagar                    </option>
+                                    <option value='245' >
+                        Jammu & Kashmir - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Jharkhand------" value="-1">
+                                    <option value='40' >
+                        Bokaro                    </option>
+                                    <option value='48' >
+                        Dhanbad                    </option>
+                                    <option value='80' >
+                        Jamshedpur                    </option>
+                                    <option value='131' >
+                        Ranchi                    </option>
+                                    <option value='246' >
+                        Jharkhand - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Karnataka------" value="-1">
+                                    <option value='2' >
+                        Bengaluru / Bangalore                    </option>
+                                    <option value='29' >
+                        Belgaum                    </option>
+                                    <option value='30' >
+                        Bellary                    </option>
+                                    <option value='38' >
+                        Bidar                    </option>
+                                    <option value='50' >
+                        Dharwad                    </option>
+                                    <option value='61' >
+                        Gulbarga                    </option>
+                                    <option value='68' >
+                        Hubli                    </option>
+                                    <option value='91' >
+                        Kolar                    </option>
+                                    <option value='104' >
+                        Mangalore                    </option>
+                                    <option value='109' >
+                        Mysore                    </option>
+                                    <option value='138' >
+                        Shimoga                    </option>
+                                    <option value='248' >
+                        Karnataka - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Kerala------" value="-1">
+                                    <option value='16' >
+                        Alappuzha / Alleppey                    </option>
+                                    <option value='42' >
+                        Cochin / Kochi / Ernakulam                    </option>
+                                    <option value='69' >
+                        Idukki                    </option>
+                                    <option value='84' >
+                        Kannur                    </option>
+                                    <option value='87' >
+                        Kasargod                    </option>
+                                    <option value='93' >
+                        Kollam                    </option>
+                                    <option value='95' >
+                        Kottayam                    </option>
+                                    <option value='96' >
+                        Kozhikode / Calicut                    </option>
+                                    <option value='103' >
+                        Malappuram                    </option>
+                                    <option value='116' >
+                        Pallakad                    </option>
+                                    <option value='119' >
+                        Pathanamthitta                    </option>
+                                    <option value='147' >
+                        Thrissur / Trissur                    </option>
+                                    <option value='148' >
+                        Thiruvananthapuram / Trivandrum                    </option>
+                                    <option value='163' >
+                        Wayanad                    </option>
+                                    <option value='249' >
+                        Palakkad                    </option>
+                                    <option value='250' >
+                        Palghat                    </option>
+                                    <option value='251' >
+                        Kerala - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Madhya Pradesh------" value="-1">
+                                    <option value='35' >
+                        Bhopal                    </option>
+                                    <option value='64' >
+                        Gwalior                    </option>
+                                    <option value='71' >
+                        Indore                    </option>
+                                    <option value='73' >
+                        Jabalpur                    </option>
+                                    <option value='154' >
+                        Ujjain                    </option>
+                                    <option value='252' >
+                        Madhya Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Maharashtra------" value="-1">
+                                    <option value='13' >
+                        Ahmednagar                    </option>
+                                    <option value='24' >
+                        Aurangabad                    </option>
+                                    <option value='77' >
+                        Jalgaon                    </option>
+                                    <option value='92' >
+                        Kolhapur                    </option>
+                                    <option value='111' >
+                        Nagpur                    </option>
+                                    <option value='112' >
+                        Nasik                    </option>
+                                    <option value='139' >
+                        Sholapur                    </option>
+                                    <option value='8' >
+                        Mumbai                    </option>
+                                    <option value='254' >
+                        Mumbai Suburbs                    </option>
+                                    <option value='255' >
+                        Navi Mumbai                    </option>
+                                    <option value='10' >
+                        Pune                    </option>
+                                    <option value='257' >
+                        Solapur                    </option>
+                                    <option value='258' >
+                        Maharashtra - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Manipur------" value="-1">
+                                    <option value='70' >
+                        Imphal                    </option>
+                                    <option value='259' >
+                        Manipur - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Meghalaya------" value="-1">
+                                    <option value='136' >
+                        Shillong                    </option>
+                                    <option value='260' >
+                        Meghalaya - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Mizoram------" value="-1">
+                                    <option value='14' >
+                        Aizawal                    </option>
+                                    <option value='261' >
+                        Mizoram - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Nagaland------" value="-1">
+                                    <option value='90' >
+                        Kohima                    </option>
+                                    <option value='262' >
+                        Dimapur                    </option>
+                                    <option value='263' >
+                        Nagaland - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Orissa------" value="-1">
+                                    <option value='36' >
+                        Bhubaneshwar                    </option>
+                                    <option value='44' >
+                        Cuttack                    </option>
+                                    <option value='118' >
+                        Paradeep                    </option>
+                                    <option value='126' >
+                        Puri                    </option>
+                                    <option value='134' >
+                        Rourkela                    </option>
+                                    <option value='264' >
+                        Orissa - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Punjab------" value="-1">
+                                    <option value='20' >
+                        Amritsar                    </option>
+                                    <option value='32' >
+                        Bhatinda                    </option>
+                                    <option value='76' >
+                        Jalandhar                    </option>
+                                    <option value='101' >
+                        Ludhiana                    </option>
+                                    <option value='107' >
+                        Mohali                    </option>
+                                    <option value='120' >
+                        Pathankot                    </option>
+                                    <option value='121' >
+                        Patiala                    </option>
+                                    <option value='265' >
+                        Bathinda                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='267' >
+                        Punjab - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Rajasthan------" value="-1">
+                                    <option value='15' >
+                        Ajmer                    </option>
+                                    <option value='74' >
+                        Jaipur                    </option>
+                                    <option value='75' >
+                        Jaisalmer                    </option>
+                                    <option value='81' >
+                        Jodhpur                    </option>
+                                    <option value='94' >
+                        Kota                    </option>
+                                    <option value='153' >
+                        Udaipur                    </option>
+                                    <option value='268' >
+                        Rajasthan - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Sikkim------" value="-1">
+                                    <option value='57' >
+                        Gangtok                    </option>
+                                    <option value='269' >
+                        Sikkim - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Tamilnadu------" value="-1">
+                                    <option value='43' >
+                        Coimbatore                    </option>
+                                    <option value='53' >
+                        Erode                    </option>
+                                    <option value='67' >
+                        Hosur                    </option>
+                                    <option value='102' >
+                        Madurai                    </option>
+                                    <option value='110' >
+                        Nagercoil                    </option>
+                                    <option value='115' >
+                        Ooty                    </option>
+                                    <option value='135' >
+                        Salem                    </option>
+                                    <option value='146' >
+                        Thanjavur                    </option>
+                                    <option value='149' >
+                        Tirunalveli                    </option>
+                                    <option value='151' >
+                        Trichy                    </option>
+                                    <option value='152' >
+                        Tuticorin                    </option>
+                                    <option value='159' >
+                        Vellore                    </option>
+                                    <option value='3' >
+                        Chennai                    </option>
+                                    <option value='271' >
+                        Cuddalore                    </option>
+                                    <option value='272' >
+                        Tamil Nadu - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Tripura------" value="-1">
+                                    <option value='11' >
+                        Agartala                    </option>
+                                    <option value='273' >
+                        Tripura - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Union Territories------" value="-1">
+                                    <option value='46' >
+                        Daman                    </option>
+                                    <option value='88' >
+                        Kavaratti                    </option>
+                                    <option value='123' >
+                        Pondicherry                    </option>
+                                    <option value='125' >
+                        Port Blair                    </option>
+                                    <option value='142' >
+                        Silvassa                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='275' >
+                        Dadra & Nagar Haveli                    </option>
+                                    <option value='221' >
+                        Delhi                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Uttar Pradesh------" value="-1">
+                                    <option value='12' >
+                        Agra                    </option>
+                                    <option value='17' >
+                        Aligarh                    </option>
+                                    <option value='18' >
+                        Allahabad                    </option>
+                                    <option value='27' >
+                        Bareilly                    </option>
+                                    <option value='54' >
+                        Faizabad                    </option>
+                                    <option value='58' >
+                        Ghaziabad                    </option>
+                                    <option value='60' >
+                        Gorakhpur                    </option>
+                                    <option value='85' >
+                        Kanpur                    </option>
+                                    <option value='100' >
+                        Lucknow                    </option>
+                                    <option value='105' >
+                        Mathura                    </option>
+                                    <option value='106' >
+                        Meerut                    </option>
+                                    <option value='108' >
+                        Moradabad                    </option>
+                                    <option value='158' >
+                        Varanasi                    </option>
+                                    <option value='9' >
+                        Noida                    </option>
+                                    <option value='278' >
+                        Uttar Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Uttaranchal------" value="-1">
+                                    <option value='47' >
+                        Dehradun                    </option>
+                                    <option value='133' >
+                        Roorkee                    </option>
+                                    <option value='279' >
+                        Uttaranchal - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------West Bengal------" value="-1">
+                                    <option value='23' >
+                        Asansol                    </option>
+                                    <option value='52' >
+                        Durgapur                    </option>
+                                    <option value='65' >
+                        Haldia                    </option>
+                                    <option value='89' >
+                        Kharagpur                    </option>
+                                    <option value='141' >
+                        Siliguri                    </option>
+                                    <option value='7' >
+                        Kolkata                    </option>
+                                    <option value='281' >
+                        West Bengal - Other                    </option>
+                                    <option value='165' >
+                        Other India                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------International Locations------" value="-1">
+                                    <option value='127' >
+                        Quilon                    </option>
+                                    <option value='166' >
+                        Australia                    </option>
+                                    <option value='167' >
+                        Bahrain                    </option>
+                                    <option value='168' >
+                        Bangladesh                    </option>
+                                    <option value='169' >
+                        Belgium                    </option>
+                                    <option value='170' >
+                        Canada                    </option>
+                                    <option value='171' >
+                        China                    </option>
+                                    <option value='214' >
+                        Doha                    </option>
+                                    <option value='215' >
+                        Dubai                    </option>
+                                    <option value='172' >
+                        Egypt                    </option>
+                                    <option value='173' >
+                        France                    </option>
+                                    <option value='174' >
+                        Germany                    </option>
+                                    <option value='175' >
+                        Gulf                    </option>
+                                    <option value='176' >
+                        Hongkong                    </option>
+                                    <option value='177' >
+                        Indonesia                    </option>
+                                    <option value='216' >
+                        INDIA                    </option>
+                                    <option value='178' >
+                        Ireland                    </option>
+                                    <option value='217' >
+                        Italy                    </option>
+                                    <option value='179' >
+                        Japan                    </option>
+                                    <option value='180' >
+                        Jordan                    </option>
+                                    <option value='218' >
+                        Kenya                    </option>
+                                    <option value='181' >
+                        Kuwait                    </option>
+                                    <option value='182' >
+                        Lebanon                    </option>
+                                    <option value='219' >
+                        Libya                    </option>
+                                    <option value='183' >
+                        Macau                    </option>
+                                    <option value='184' >
+                        Malaysia                    </option>
+                                    <option value='185' >
+                        Maldives                    </option>
+                                    <option value='186' >
+                        Mauritius                    </option>
+                                    <option value='187' >
+                        Mexico                    </option>
+                                    <option value='188' >
+                        Nepal                    </option>
+                                    <option value='189' >
+                        Netherlands                    </option>
+                                    <option value='190' >
+                        New Zealand                    </option>
+                                    <option value='220' >
+                        Norway                    </option>
+                                    <option value='191' >
+                        Oman                    </option>
+                                    <option value='192' >
+                        Pakistan                    </option>
+                                    <option value='193' >
+                        Philippines                    </option>
+                                    <option value='194' >
+                        Qatar                    </option>
+                                    <option value='195' >
+                        Russia                    </option>
+                                    <option value='196' >
+                        Saudi Arabia                    </option>
+                                    <option value='197' >
+                        Singapore                    </option>
+                                    <option value='198' >
+                        South Africa                    </option>
+                                    <option value='199' >
+                        South Korea                    </option>
+                                    <option value='200' >
+                        Spain                    </option>
+                                    <option value='201' >
+                        SriLanka                    </option>
+                                    <option value='202' >
+                        Sweden                    </option>
+                                    <option value='203' >
+                        Switzerland                    </option>
+                                    <option value='204' >
+                        Taiwan                    </option>
+                                    <option value='205' >
+                        Thailand                    </option>
+                                    <option value='206' >
+                        United Kingdom                    </option>
+                                    <option value='207' >
+                        United Arab Emirates                    </option>
+                                    <option value='208' >
+                        United States                    </option>
+                                    <option value='209' >
+                        Vietnam                    </option>
+                                    <option value='210' >
+                        Yemen                    </option>
+                                    <option value='211' >
+                        Zimbabwe                    </option>
+                                    <option value='212' >
+                        Other International                    </option>
+                            </optgroup>
+                </select>
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Preferred Location</label>
+                                <div class="col-md-7 col-sm-7 prefloc">
+                                                                        
+    <select name="ploc[]" id='1'
+            class="form-control" onchange="" multiple>
+                            <optgroup class="optGroup" label="------Anywhere------" value="-1">
+                                    <option value='213' >
+                        Anywhere                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Top Metropolitan Cities------" value="-1">
+                                    <option value='1' >
+                        Ahmedabad                    </option>
+                                    <option value='2' >
+                        Bangalore                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='3' >
+                        Chennai                    </option>
+                                    <option value='221' >
+                        Delhi                    </option>
+                                    <option value='5' >
+                        Gurgaon                    </option>
+                                    <option value='6' >
+                        Hyderabad                    </option>
+                                    <option value='7' >
+                        Kolkata                    </option>
+                                    <option value='8' >
+                        Mumbai                    </option>
+                                    <option value='9' >
+                        Noida                    </option>
+                                    <option value='10' >
+                        Pune                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Andhra Pradesh------" value="-1">
+                                    <option value='62' >
+                        Guntur                    </option>
+                                    <option value='82' >
+                        Kakinada                    </option>
+                                    <option value='98' >
+                        Kurnool                    </option>
+                                    <option value='113' >
+                        Nellore                    </option>
+                                    <option value='114' >
+                        Nizamabad                    </option>
+                                    <option value='129' >
+                        Rajamundry                    </option>
+                                    <option value='150' >
+                        Tirupati                    </option>
+                                    <option value='160' >
+                        Vijayawada                    </option>
+                                    <option value='161' >
+                        Visakhapatnam                    </option>
+                                    <option value='162' >
+                        Warangal                    </option>
+                                    <option value='222' >
+                        Anantapur                    </option>
+                                    <option value='223' >
+                        Guntakal                    </option>
+                                    <option value='6' >
+                        Hyderabad                    </option>
+                                    <option value='225' >
+                        Rajahmundry                    </option>
+                                    <option value='226' >
+                        Secunderabad                    </option>
+                                    <option value='227' >
+                        Andhra Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Arunachal Pradesh------" value="-1">
+                                    <option value='72' >
+                        Itanagar                    </option>
+                                    <option value='228' >
+                        Arunachal Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Assam------" value="-1">
+                                    <option value='51' >
+                        Dispur                    </option>
+                                    <option value='63' >
+                        Guwahati                    </option>
+                                    <option value='140' >
+                        Silchar                    </option>
+                                    <option value='229' >
+                        Assam - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Bihar------" value="-1">
+                                    <option value='34' >
+                        Bhilaigarh                    </option>
+                                    <option value='122' >
+                        Patna                    </option>
+                                    <option value='230' >
+                        Bihar - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Chhattisgarh------" value="-1">
+                                    <option value='26' >
+                        Bhagalpur                    </option>
+                                    <option value='39' >
+                        Bilaspur                    </option>
+                                    <option value='128' >
+                        Raipur                    </option>
+                                    <option value='231' >
+                        Bhillai                    </option>
+                                    <option value='232' >
+                        Chhattisgarh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Goa------" value="-1">
+                                    <option value='59' >
+                        Goa                    </option>
+                                    <option value='233' >
+                        Panaji                    </option>
+                                    <option value='234' >
+                        Panjim                    </option>
+                                    <option value='235' >
+                        Vasco Da Gama                    </option>
+                                    <option value='236' >
+                        Goa - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Gujarat------" value="-1">
+                                    <option value='21' >
+                        Anand                    </option>
+                                    <option value='22' >
+                        Ankleshwar                    </option>
+                                    <option value='28' >
+                        Baroda                    </option>
+                                    <option value='31' >
+                        Bharuch                    </option>
+                                    <option value='33' >
+                        Bhavnagar                    </option>
+                                    <option value='37' >
+                        Bhuj                    </option>
+                                    <option value='56' >
+                        Gandhinagar                    </option>
+                                    <option value='79' >
+                        Jamnagar                    </option>
+                                    <option value='83' >
+                        Kandla                    </option>
+                                    <option value='124' >
+                        Porbandar                    </option>
+                                    <option value='130' >
+                        Rajkot                    </option>
+                                    <option value='145' >
+                        Surat                    </option>
+                                    <option value='155' >
+                        Vadodara                    </option>
+                                    <option value='156' >
+                        Valsad                    </option>
+                                    <option value='157' >
+                        Vapi                    </option>
+                                    <option value='1' >
+                        Ahmedabad                    </option>
+                                    <option value='238' >
+                        Gir                    </option>
+                                    <option value='239' >
+                        Gujarat - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Haryana------" value="-1">
+                                    <option value='19' >
+                        Ambala                    </option>
+                                    <option value='55' >
+                        Faridabad                    </option>
+                                    <option value='66' >
+                        Hisar                    </option>
+                                    <option value='86' >
+                        Karnal                    </option>
+                                    <option value='99' >
+                        Kurukshetra                    </option>
+                                    <option value='117' >
+                        Panipat                    </option>
+                                    <option value='132' >
+                        Rohtak                    </option>
+                                    <option value='143' >
+                        Sonipat / Sonepat                    </option>
+                                    <option value='164' >
+                        Yamunanagar                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='5' >
+                        Gurgaon                    </option>
+                                    <option value='242' >
+                        Haryana - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Himachal Pradesh------" value="-1">
+                                    <option value='25' >
+                        Baddi                    </option>
+                                    <option value='45' >
+                        Dalhousie                    </option>
+                                    <option value='49' >
+                        Dharamsala                    </option>
+                                    <option value='97' >
+                        Kulu/Manali                    </option>
+                                    <option value='137' >
+                        Shimla                    </option>
+                                    <option value='244' >
+                        Himachal Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Jammu & Kashmir------" value="-1">
+                                    <option value='78' >
+                        Jammu                    </option>
+                                    <option value='144' >
+                        Srinagar                    </option>
+                                    <option value='245' >
+                        Jammu & Kashmir - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Jharkhand------" value="-1">
+                                    <option value='40' >
+                        Bokaro                    </option>
+                                    <option value='48' >
+                        Dhanbad                    </option>
+                                    <option value='80' >
+                        Jamshedpur                    </option>
+                                    <option value='131' >
+                        Ranchi                    </option>
+                                    <option value='246' >
+                        Jharkhand - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Karnataka------" value="-1">
+                                    <option value='2' >
+                        Bengaluru / Bangalore                    </option>
+                                    <option value='29' >
+                        Belgaum                    </option>
+                                    <option value='30' >
+                        Bellary                    </option>
+                                    <option value='38' >
+                        Bidar                    </option>
+                                    <option value='50' >
+                        Dharwad                    </option>
+                                    <option value='61' >
+                        Gulbarga                    </option>
+                                    <option value='68' >
+                        Hubli                    </option>
+                                    <option value='91' >
+                        Kolar                    </option>
+                                    <option value='104' >
+                        Mangalore                    </option>
+                                    <option value='109' >
+                        Mysore                    </option>
+                                    <option value='138' >
+                        Shimoga                    </option>
+                                    <option value='248' >
+                        Karnataka - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Kerala------" value="-1">
+                                    <option value='16' >
+                        Alappuzha / Alleppey                    </option>
+                                    <option value='42' >
+                        Cochin / Kochi / Ernakulam                    </option>
+                                    <option value='69' >
+                        Idukki                    </option>
+                                    <option value='84' >
+                        Kannur                    </option>
+                                    <option value='87' >
+                        Kasargod                    </option>
+                                    <option value='93' >
+                        Kollam                    </option>
+                                    <option value='95' >
+                        Kottayam                    </option>
+                                    <option value='96' >
+                        Kozhikode / Calicut                    </option>
+                                    <option value='103' >
+                        Malappuram                    </option>
+                                    <option value='116' >
+                        Pallakad                    </option>
+                                    <option value='119' >
+                        Pathanamthitta                    </option>
+                                    <option value='147' >
+                        Thrissur / Trissur                    </option>
+                                    <option value='148' >
+                        Thiruvananthapuram / Trivandrum                    </option>
+                                    <option value='163' >
+                        Wayanad                    </option>
+                                    <option value='249' >
+                        Palakkad                    </option>
+                                    <option value='250' >
+                        Palghat                    </option>
+                                    <option value='251' >
+                        Kerala - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Madhya Pradesh------" value="-1">
+                                    <option value='35' >
+                        Bhopal                    </option>
+                                    <option value='64' >
+                        Gwalior                    </option>
+                                    <option value='71' >
+                        Indore                    </option>
+                                    <option value='73' >
+                        Jabalpur                    </option>
+                                    <option value='154' >
+                        Ujjain                    </option>
+                                    <option value='252' >
+                        Madhya Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Maharashtra------" value="-1">
+                                    <option value='13' >
+                        Ahmednagar                    </option>
+                                    <option value='24' >
+                        Aurangabad                    </option>
+                                    <option value='77' >
+                        Jalgaon                    </option>
+                                    <option value='92' >
+                        Kolhapur                    </option>
+                                    <option value='111' >
+                        Nagpur                    </option>
+                                    <option value='112' >
+                        Nasik                    </option>
+                                    <option value='139' >
+                        Sholapur                    </option>
+                                    <option value='8' >
+                        Mumbai                    </option>
+                                    <option value='254' >
+                        Mumbai Suburbs                    </option>
+                                    <option value='255' >
+                        Navi Mumbai                    </option>
+                                    <option value='10' >
+                        Pune                    </option>
+                                    <option value='257' >
+                        Solapur                    </option>
+                                    <option value='258' >
+                        Maharashtra - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Manipur------" value="-1">
+                                    <option value='70' >
+                        Imphal                    </option>
+                                    <option value='259' >
+                        Manipur - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Meghalaya------" value="-1">
+                                    <option value='136' >
+                        Shillong                    </option>
+                                    <option value='260' >
+                        Meghalaya - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Mizoram------" value="-1">
+                                    <option value='14' >
+                        Aizawal                    </option>
+                                    <option value='261' >
+                        Mizoram - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Nagaland------" value="-1">
+                                    <option value='90' >
+                        Kohima                    </option>
+                                    <option value='262' >
+                        Dimapur                    </option>
+                                    <option value='263' >
+                        Nagaland - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Orissa------" value="-1">
+                                    <option value='36' >
+                        Bhubaneshwar                    </option>
+                                    <option value='44' >
+                        Cuttack                    </option>
+                                    <option value='118' >
+                        Paradeep                    </option>
+                                    <option value='126' >
+                        Puri                    </option>
+                                    <option value='134' >
+                        Rourkela                    </option>
+                                    <option value='264' >
+                        Orissa - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Punjab------" value="-1">
+                                    <option value='20' >
+                        Amritsar                    </option>
+                                    <option value='32' >
+                        Bhatinda                    </option>
+                                    <option value='76' >
+                        Jalandhar                    </option>
+                                    <option value='101' >
+                        Ludhiana                    </option>
+                                    <option value='107' >
+                        Mohali                    </option>
+                                    <option value='120' >
+                        Pathankot                    </option>
+                                    <option value='121' >
+                        Patiala                    </option>
+                                    <option value='265' >
+                        Bathinda                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='267' >
+                        Punjab - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Rajasthan------" value="-1">
+                                    <option value='15' >
+                        Ajmer                    </option>
+                                    <option value='74' >
+                        Jaipur                    </option>
+                                    <option value='75' >
+                        Jaisalmer                    </option>
+                                    <option value='81' >
+                        Jodhpur                    </option>
+                                    <option value='94' >
+                        Kota                    </option>
+                                    <option value='153' >
+                        Udaipur                    </option>
+                                    <option value='268' >
+                        Rajasthan - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Sikkim------" value="-1">
+                                    <option value='57' >
+                        Gangtok                    </option>
+                                    <option value='269' >
+                        Sikkim - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Tamilnadu------" value="-1">
+                                    <option value='43' >
+                        Coimbatore                    </option>
+                                    <option value='53' >
+                        Erode                    </option>
+                                    <option value='67' >
+                        Hosur                    </option>
+                                    <option value='102' >
+                        Madurai                    </option>
+                                    <option value='110' >
+                        Nagercoil                    </option>
+                                    <option value='115' >
+                        Ooty                    </option>
+                                    <option value='135' >
+                        Salem                    </option>
+                                    <option value='146' >
+                        Thanjavur                    </option>
+                                    <option value='149' >
+                        Tirunalveli                    </option>
+                                    <option value='151' >
+                        Trichy                    </option>
+                                    <option value='152' >
+                        Tuticorin                    </option>
+                                    <option value='159' >
+                        Vellore                    </option>
+                                    <option value='3' >
+                        Chennai                    </option>
+                                    <option value='271' >
+                        Cuddalore                    </option>
+                                    <option value='272' >
+                        Tamil Nadu - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Tripura------" value="-1">
+                                    <option value='11' >
+                        Agartala                    </option>
+                                    <option value='273' >
+                        Tripura - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Union Territories------" value="-1">
+                                    <option value='46' >
+                        Daman                    </option>
+                                    <option value='88' >
+                        Kavaratti                    </option>
+                                    <option value='123' >
+                        Pondicherry                    </option>
+                                    <option value='125' >
+                        Port Blair                    </option>
+                                    <option value='142' >
+                        Silvassa                    </option>
+                                    <option value='41' >
+                        Chandigarh                    </option>
+                                    <option value='275' >
+                        Dadra & Nagar Haveli                    </option>
+                                    <option value='221' >
+                        Delhi                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Uttar Pradesh------" value="-1">
+                                    <option value='12' >
+                        Agra                    </option>
+                                    <option value='17' >
+                        Aligarh                    </option>
+                                    <option value='18' >
+                        Allahabad                    </option>
+                                    <option value='27' >
+                        Bareilly                    </option>
+                                    <option value='54' >
+                        Faizabad                    </option>
+                                    <option value='58' >
+                        Ghaziabad                    </option>
+                                    <option value='60' >
+                        Gorakhpur                    </option>
+                                    <option value='85' >
+                        Kanpur                    </option>
+                                    <option value='100' >
+                        Lucknow                    </option>
+                                    <option value='105' >
+                        Mathura                    </option>
+                                    <option value='106' >
+                        Meerut                    </option>
+                                    <option value='108' >
+                        Moradabad                    </option>
+                                    <option value='158' >
+                        Varanasi                    </option>
+                                    <option value='9' >
+                        Noida                    </option>
+                                    <option value='278' >
+                        Uttar Pradesh - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------Uttaranchal------" value="-1">
+                                    <option value='47' >
+                        Dehradun                    </option>
+                                    <option value='133' >
+                        Roorkee                    </option>
+                                    <option value='279' >
+                        Uttaranchal - Other                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------West Bengal------" value="-1">
+                                    <option value='23' >
+                        Asansol                    </option>
+                                    <option value='52' >
+                        Durgapur                    </option>
+                                    <option value='65' >
+                        Haldia                    </option>
+                                    <option value='89' >
+                        Kharagpur                    </option>
+                                    <option value='141' >
+                        Siliguri                    </option>
+                                    <option value='7' >
+                        Kolkata                    </option>
+                                    <option value='281' >
+                        West Bengal - Other                    </option>
+                                    <option value='165' >
+                        Other India                    </option>
+                            </optgroup>
+                        <optgroup class="optGroup" label="------International Locations------" value="-1">
+                                    <option value='127' >
+                        Quilon                    </option>
+                                    <option value='166' >
+                        Australia                    </option>
+                                    <option value='167' >
+                        Bahrain                    </option>
+                                    <option value='168' >
+                        Bangladesh                    </option>
+                                    <option value='169' >
+                        Belgium                    </option>
+                                    <option value='170' >
+                        Canada                    </option>
+                                    <option value='171' >
+                        China                    </option>
+                                    <option value='214' >
+                        Doha                    </option>
+                                    <option value='215' >
+                        Dubai                    </option>
+                                    <option value='172' >
+                        Egypt                    </option>
+                                    <option value='173' >
+                        France                    </option>
+                                    <option value='174' >
+                        Germany                    </option>
+                                    <option value='175' >
+                        Gulf                    </option>
+                                    <option value='176' >
+                        Hongkong                    </option>
+                                    <option value='177' >
+                        Indonesia                    </option>
+                                    <option value='216' >
+                        INDIA                    </option>
+                                    <option value='178' >
+                        Ireland                    </option>
+                                    <option value='217' >
+                        Italy                    </option>
+                                    <option value='179' >
+                        Japan                    </option>
+                                    <option value='180' >
+                        Jordan                    </option>
+                                    <option value='218' >
+                        Kenya                    </option>
+                                    <option value='181' >
+                        Kuwait                    </option>
+                                    <option value='182' >
+                        Lebanon                    </option>
+                                    <option value='219' >
+                        Libya                    </option>
+                                    <option value='183' >
+                        Macau                    </option>
+                                    <option value='184' >
+                        Malaysia                    </option>
+                                    <option value='185' >
+                        Maldives                    </option>
+                                    <option value='186' >
+                        Mauritius                    </option>
+                                    <option value='187' >
+                        Mexico                    </option>
+                                    <option value='188' >
+                        Nepal                    </option>
+                                    <option value='189' >
+                        Netherlands                    </option>
+                                    <option value='190' >
+                        New Zealand                    </option>
+                                    <option value='220' >
+                        Norway                    </option>
+                                    <option value='191' >
+                        Oman                    </option>
+                                    <option value='192' >
+                        Pakistan                    </option>
+                                    <option value='193' >
+                        Philippines                    </option>
+                                    <option value='194' >
+                        Qatar                    </option>
+                                    <option value='195' >
+                        Russia                    </option>
+                                    <option value='196' >
+                        Saudi Arabia                    </option>
+                                    <option value='197' >
+                        Singapore                    </option>
+                                    <option value='198' >
+                        South Africa                    </option>
+                                    <option value='199' >
+                        South Korea                    </option>
+                                    <option value='200' >
+                        Spain                    </option>
+                                    <option value='201' >
+                        SriLanka                    </option>
+                                    <option value='202' >
+                        Sweden                    </option>
+                                    <option value='203' >
+                        Switzerland                    </option>
+                                    <option value='204' >
+                        Taiwan                    </option>
+                                    <option value='205' >
+                        Thailand                    </option>
+                                    <option value='206' >
+                        United Kingdom                    </option>
+                                    <option value='207' >
+                        United Arab Emirates                    </option>
+                                    <option value='208' >
+                        United States                    </option>
+                                    <option value='209' >
+                        Vietnam                    </option>
+                                    <option value='210' >
+                        Yemen                    </option>
+                                    <option value='211' >
+                        Zimbabwe                    </option>
+                                    <option value='212' >
+                        Other International                    </option>
+                            </optgroup>
+                </select>
+                                    </div>
+                            </div>
+
+                        </div>
+
+                        <div class="pull-left col-md-6 col-sm-12">
+                                                        <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Functional Area</label>
+                                <div class="col-md-7 col-sm-7">
+                                    
+    <select name="functional_area" id='functional_area'
+            class="form-control" onchange="">
+                            <option value='' selected>Select</option>
+                        <option value='1' >
+                CA          </option>
+                        <option value='2' >
+                CS          </option>
+                        <option value='3' >
+                Auditor            </option>
+                        <option value='4' >
+                Company Management            </option>
+                        <option value='5' >
+                QA & Testing            </option>
+              
+               
+                </select>
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Gender</label>
+                                <div class="col-md-5 col-sm-5">
+                                    
+    <select name="gender" id='gender'
+            class="form-control" onchange="">
+                            <option value='' selected>Select</option>
+                        <option value='Male' >
+                Male            </option>
+                        <option value='Female' >
+                Female            </option>
+                </select>
+    
+                                </div>
+                            </div>
+                           
+                            <div class="form-group">
+                                <label style="padding-left:0;"  class="col-md-4 col-sm-4 control-label" for="textinput">Experience</label>
+                                <div class="col-md-3 col-sm-3 pd10">
+                                                                        
+    <select name="expyear" id='expyear'
+            class="form-control" onchange="">
+                            <option value='' >
+                YYYY            </option>
+                        <option value='0' >
+                0            </option>
+                        <option value='1' >
+                1            </option>
+                        <option value='2' >
+                2            </option>
+                        <option value='3' >
+                3            </option>
+                        <option value='4' >
+                4            </option>
+                        <option value='5' >
+                5            </option>
+                        <option value='6' >
+                6            </option>
+                        <option value='7' >
+                7            </option>
+                        <option value='8' >
+                8            </option>
+                        <option value='9' >
+                9            </option>
+                        <option value='10' >
+                10            </option>
+                        <option value='11' >
+                11            </option>
+                        <option value='12' >
+                12            </option>
+                        <option value='13' >
+                13            </option>
+                        <option value='14' >
+                14            </option>
+                        <option value='15' >
+                15            </option>
+                        <option value='16' >
+                16            </option>
+                        <option value='17' >
+                17            </option>
+                        <option value='18' >
+                18            </option>
+                        <option value='19' >
+                19            </option>
+                        <option value='20' >
+                20            </option>
+                        <option value='21' >
+                21            </option>
+                        <option value='22' >
+                22            </option>
+                        <option value='23' >
+                23            </option>
+                        <option value='24' >
+                24            </option>
+                        <option value='25' >
+                25            </option>
+                        <option value='26' >
+                26            </option>
+                        <option value='27' >
+                27            </option>
+                        <option value='28' >
+                28            </option>
+                        <option value='29' >
+                29            </option>
+                        <option value='30' >
+                30            </option>
+                        <option value='31' >
+                30+            </option>
+                </select>
+                                    </div>
+                                <div class="col-md-3 col-sm-3 pd10">
+                                                                        
+    <select name="expmonth" id='expmonth'
+            class="form-control" onchange="">
+                            <option value='' >
+                MM            </option>
+                        <option value='0' >
+                0            </option>
+                        <option value='1' >
+                1            </option>
+                        <option value='2' >
+                2            </option>
+                        <option value='3' >
+                3            </option>
+                        <option value='4' >
+                4            </option>
+                        <option value='5' >
+                5            </option>
+                        <option value='6' >
+                6            </option>
+                        <option value='7' >
+                7            </option>
+                        <option value='8' >
+                8            </option>
+                        <option value='9' >
+                9            </option>
+                        <option value='10' >
+                10            </option>
+                        <option value='11' >
+                11            </option>
+                </select>
+                                    </div>
+                            </div>
+                            
+                               <!--<div class="col-md-5 col-sm-4">
+                                                                        
+    <select name="currentctc" id='currentctc'
+            class="form-control" onchange="">
+                            <option value='' selected>Select</option>
+                        <option value='1' >
+                <2            </option>
+                        <option value='2' >
+                2            </option>
+                        <option value='3' >
+                3            </option>
+                        <option value='4' >
+                4            </option>
+                        <option value='5' >
+                5            </option>
+                        <option value='6' >
+                6            </option>
+                        <option value='7' >
+                7            </option>
+                        <option value='8' >
+                8            </option>
+                        <option value='9' >
+                9            </option>
+                        <option value='10' >
+                10            </option>
+                        <option value='11' >
+                11            </option>
+                        <option value='12' >
+                12            </option>
+                        <option value='13' >
+                13            </option>
+                        <option value='14' >
+                14            </option>
+                        <option value='15' >
+                15            </option>
+                        <option value='16' >
+                16            </option>
+                        <option value='17' >
+                17            </option>
+                        <option value='18' >
+                18            </option>
+                        <option value='19' >
+                19            </option>
+                        <option value='20' >
+                20            </option>
+                        <option value='21' >
+                21            </option>
+                        <option value='22' >
+                22            </option>
+                        <option value='23' >
+                23            </option>
+                        <option value='24' >
+                24            </option>
+                        <option value='25' >
+                25            </option>
+                        <option value='26' >
+                26            </option>
+                        <option value='27' >
+                27            </option>
+                        <option value='28' >
+                28            </option>
+                        <option value='29' >
+                29            </option>
+                        <option value='30' >
+                30            </option>
+                        <option value='31' >
+                31            </option>
+                        <option value='32' >
+                32            </option>
+                        <option value='33' >
+                33            </option>
+                        <option value='34' >
+                34            </option>
+                        <option value='35' >
+                35            </option>
+                        <option value='36' >
+                36            </option>
+                        <option value='37' >
+                37            </option>
+                        <option value='38' >
+                38            </option>
+                        <option value='39' >
+                39            </option>
+                        <option value='40' >
+                40            </option>
+                        <option value='41' >
+                41            </option>
+                        <option value='42' >
+                42            </option>
+                        <option value='43' >
+                43            </option>
+                        <option value='44' >
+                44            </option>
+                        <option value='45' >
+                45            </option>
+                        <option value='46' >
+                46            </option>
+                        <option value='47' >
+                47            </option>
+                        <option value='48' >
+                48            </option>
+                        <option value='49' >
+                49            </option>
+                        <option value='50' >
+                50            </option>
+                        <option value='51' >
+                51            </option>
+                        <option value='52' >
+                52            </option>
+                        <option value='53' >
+                53            </option>
+                        <option value='54' >
+                54            </option>
+                        <option value='55' >
+                55            </option>
+                        <option value='56' >
+                56            </option>
+                        <option value='57' >
+                57            </option>
+                        <option value='58' >
+                58            </option>
+                        <option value='59' >
+                59            </option>
+                        <option value='60' >
+                60            </option>
+                        <option value='61' >
+                61            </option>
+                        <option value='62' >
+                62            </option>
+                        <option value='63' >
+                63            </option>
+                        <option value='64' >
+                64            </option>
+                        <option value='65' >
+                65            </option>
+                        <option value='66' >
+                66            </option>
+                        <option value='67' >
+                67            </option>
+                        <option value='68' >
+                68            </option>
+                        <option value='69' >
+                69            </option>
+                        <option value='70' >
+                70            </option>
+                        <option value='71' >
+                71            </option>
+                        <option value='72' >
+                72            </option>
+                        <option value='73' >
+                73            </option>
+                        <option value='74' >
+                74            </option>
+                        <option value='75' >
+                75            </option>
+                        <option value='76' >
+                76            </option>
+                        <option value='77' >
+                77            </option>
+                        <option value='78' >
+                78            </option>
+                        <option value='79' >
+                79            </option>
+                        <option value='80' >
+                80            </option>
+                        <option value='81' >
+                81            </option>
+                        <option value='82' >
+                82            </option>
+                        <option value='83' >
+                83            </option>
+                        <option value='84' >
+                84            </option>
+                        <option value='85' >
+                85            </option>
+                        <option value='86' >
+                86            </option>
+                        <option value='87' >
+                87            </option>
+                        <option value='88' >
+                88            </option>
+                        <option value='89' >
+                89            </option>
+                        <option value='90' >
+                90            </option>
+                        <option value='91' >
+                91            </option>
+                        <option value='92' >
+                92            </option>
+                        <option value='93' >
+                93            </option>
+                        <option value='94' >
+                94            </option>
+                        <option value='95' >
+                95            </option>
+                        <option value='96' >
+                96            </option>
+                        <option value='97' >
+                97            </option>
+                        <option value='98' >
+                98            </option>
+                        <option value='99' >
+                99            </option>
+                        <option value='100' >
+                100            </option>
+                        <option value='101' >
+                100+            </option>
+                </select>
+                                    </div>
+                                <label for="checkboxes-0" class="mt10 pull-left pdl0 col-md-3 col-sm-4 col-xs-12">
+                                    <input type="checkbox" name="confidential" id="confidential" value="1" >
+                                    Confidential
+                                </label>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 col-sm-4 control-label" for="textinput" style="padding-top:0;">Expected Salary (INR)<br/><span class="txt12">(in lakhs/year)</span></label>
+                                <div class="col-md-5 col-sm-4">
+                                                                        
+    <select name="expectedctc" id='expectedctc'
+            class="form-control" onchange="">
+                            <option value='' selected>Select</option>
+                        <option value='2' >
+                2            </option>
+                        <option value='3' >
+                3            </option>
+                        <option value='4' >
+                4            </option>
+                        <option value='5' >
+                5            </option>
+                        <option value='6' >
+                6            </option>
+                        <option value='7' >
+                7            </option>
+                        <option value='8' >
+                8            </option>
+                        <option value='9' >
+                9            </option>
+                        <option value='10' >
+                10            </option>
+                        <option value='11' >
+                11            </option>
+                        <option value='12' >
+                12            </option>
+                        <option value='13' >
+                13            </option>
+                        <option value='14' >
+                14            </option>
+                        <option value='15' >
+                15            </option>
+                        <option value='16' >
+                16            </option>
+                        <option value='17' >
+                17            </option>
+                        <option value='18' >
+                18            </option>
+                        <option value='19' >
+                19            </option>
+                        <option value='20' >
+                20            </option>
+                        <option value='21' >
+                21            </option>
+                        <option value='22' >
+                22            </option>
+                        <option value='23' >
+                23            </option>
+                        <option value='24' >
+                24            </option>
+                        <option value='25' >
+                25            </option>
+                        <option value='26' >
+                26            </option>
+                        <option value='27' >
+                27            </option>
+                        <option value='28' >
+                28            </option>
+                        <option value='29' >
+                29            </option>
+                        <option value='30' >
+                30            </option>
+                        <option value='31' >
+                31            </option>
+                        <option value='32' >
+                32            </option>
+                        <option value='33' >
+                33            </option>
+                        <option value='34' >
+                34            </option>
+                        <option value='35' >
+                35            </option>
+                        <option value='36' >
+                36            </option>
+                        <option value='37' >
+                37            </option>
+                        <option value='38' >
+                38            </option>
+                        <option value='39' >
+                39            </option>
+                        <option value='40' >
+                40            </option>
+                        <option value='41' >
+                41            </option>
+                        <option value='42' >
+                42            </option>
+                        <option value='43' >
+                43            </option>
+                        <option value='44' >
+                44            </option>
+                        <option value='45' >
+                45            </option>
+                        <option value='46' >
+                46            </option>
+                        <option value='47' >
+                47            </option>
+                        <option value='48' >
+                48            </option>
+                        <option value='49' >
+                49            </option>
+                        <option value='50' >
+                50            </option>
+                        <option value='51' >
+                51            </option>
+                        <option value='52' >
+                52            </option>
+                        <option value='53' >
+                53            </option>
+                        <option value='54' >
+                54            </option>
+                        <option value='55' >
+                55            </option>
+                        <option value='56' >
+                56            </option>
+                        <option value='57' >
+                57            </option>
+                        <option value='58' >
+                58            </option>
+                        <option value='59' >
+                59            </option>
+                        <option value='60' >
+                60            </option>
+                        <option value='61' >
+                61            </option>
+                        <option value='62' >
+                62            </option>
+                        <option value='63' >
+                63            </option>
+                        <option value='64' >
+                64            </option>
+                        <option value='65' >
+                65            </option>
+                        <option value='66' >
+                66            </option>
+                        <option value='67' >
+                67            </option>
+                        <option value='68' >
+                68            </option>
+                        <option value='69' >
+                69            </option>
+                        <option value='70' >
+                70            </option>
+                        <option value='71' >
+                71            </option>
+                        <option value='72' >
+                72            </option>
+                        <option value='73' >
+                73            </option>
+                        <option value='74' >
+                74            </option>
+                        <option value='75' >
+                75            </option>
+                        <option value='76' >
+                76            </option>
+                        <option value='77' >
+                77            </option>
+                        <option value='78' >
+                78            </option>
+                        <option value='79' >
+                79            </option>
+                        <option value='80' >
+                80            </option>
+                        <option value='81' >
+                81            </option>
+                        <option value='82' >
+                82            </option>
+                        <option value='83' >
+                83            </option>
+                        <option value='84' >
+                84            </option>
+                        <option value='85' >
+                85            </option>
+                        <option value='86' >
+                86            </option>
+                        <option value='87' >
+                87            </option>
+                        <option value='88' >
+                88            </option>
+                        <option value='89' >
+                89            </option>
+                        <option value='90' >
+                90            </option>
+                        <option value='91' >
+                91            </option>
+                        <option value='92' >
+                92            </option>
+                        <option value='93' >
+                93            </option>
+                        <option value='94' >
+                94            </option>
+                        <option value='95' >
+                95            </option>
+                        <option value='96' >
+                96            </option>
+                        <option value='97' >
+                97            </option>
+                        <option value='98' >
+                98            </option>
+                        <option value='99' >
+                99            </option>
+                        <option value='100' >
+                100            </option>
+                        <option value='101' >
+                100+            </option>
+                </select>
+    
+                                </div>
+                                <label for="checkboxes-0" class="mt10 pull-left pdl0 col-md-3 col-sm-4 col-xs-12">
+                                    <input type="checkbox" name="negotiable" id="negotiable" value="1" >
+                                    Negotiable
+                                </label>
+
+                            </div>
+
+                        </div>-->
+                        <div class="clearfix"></div>
+                        <div class="form-group text-center ppe">
+                            <input class="greenbtnmedium" id="profileSave" type="submit" name="submit"  value="Save &AMP; Next >>" title="Save" alt="Save">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="panel panel-default ppe" style="display:none">
+            <!--<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">-->
+            <div class="panel-heading pull-left full_container mb20" data-toggle="collapse" >
+
+                <h4 class="panel-title pull-left">
+                    <a>Education</a>
+                </h4>
+                
+            </div>
+
+            <div id="collapseTwo" class="panel-collapse collapse ">
+                <form class="form-horizontal applyform" id="educationForm" name="educationForm" action="controller.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                    <input type="hidden" name="submitOnce" id="submitOnce" value=0 />
+                    <input type="hidden" name="source"  value="" />
+                    <input type="hidden" name="flowtype" id="flowtype" value="21"/>
+                    <input type="hidden" name="redirectto" id="redirectto" value=""/>
+                    <input type="hidden" name="pd" id="pd" value=""/>
+                    <input type="hidden" name="ed" id="ed" value=""/>
+                    <input type="hidden" name="pro" id="pro" value=""/>
+                    <input type="hidden" name="ur" id="ur" value=""/>
+                    <div class="panel-body">
+                        <div class="pull-left col-md-12 col-sm-12 multiple-education">
+                                                            <div class="inputRow ">
+                                    <div class="form-group">
+                                        <label style="padding-left:0;"  class="col-md-2 col-sm-2 control-label" for="textinput">Institute</label>
+                                        <div class="col-md-6 col-sm-6">
+                                            <input type="hidden" name="From[1][institute]" id="institute_1" value="">
+                                            <input id="otherInstitute_1"  name="From[1][otherInstitute]"                                                    value="" class="form-control input-md institueList"  type="text"
+                                                   data-rule-required="true" data-msg-required="Please select the Institute." data-rule-maxlength="200" data-msg-maxlength="Please enter max 200 character."/>
+                                        </div>
+                                        <div class="col-md-1 col-sm-2"><span name ="reset_1" id="reset_institute_1" class="suggestion-reset greentxt mt7 pull-left">Edit</span></div>
+                                        
+                                        
+                                    </div>
+    <!--                                    <div class="form-group rankattempt" style="display:">
+                                        <label style="padding-left:0;"  class="col-md-2 control-label" for="textinput">Rank & Attempt</label>
+                                        <div class="col-md-3">
+                                            <input class="form-control input-md rankValidation" type="text" value="" name="From[1][rank]" id="rank_1" />
+                                        </div>
+                                        <div class="col-md-3">
+                                                                            </div>
+                                    </div>-->
+                                    <div class="form-group">
+                                        <label style="padding-left:0;"  class="col-md-2 col-sm-2 control-label" for="textinput">Batch</label>
+                                        <div class="col-md-2 col-sm-2 mbx10">
+                                                                                        
+    <select name="From[1][regbatchfrom]" id='regbatchfrom_1'
+            class="form-control batchFromValidate" onchange="">
+                            <option value='0' selected>
+                YYYY            </option>
+                        <option value='2015' >
+                2015            </option>
+                        <option value='2014' >
+                2014            </option>
+                        <option value='2013' >
+                2013            </option>
+                        <option value='2012' >
+                2012            </option>
+                        <option value='2011' >
+                2011            </option>
+                        <option value='2010' >
+                2010            </option>
+                        <option value='2009' >
+                2009            </option>
+                        <option value='2008' >
+                2008            </option>
+                        <option value='2007' >
+                2007            </option>
+                        <option value='2006' >
+                2006            </option>
+                        <option value='2005' >
+                2005            </option>
+                        <option value='2004' >
+                2004            </option>
+                        <option value='2003' >
+                2003            </option>
+                        <option value='2002' >
+                2002            </option>
+                        <option value='2001' >
+                2001            </option>
+                        <option value='2000' >
+                2000            </option>
+                        <option value='1999' >
+                1999            </option>
+                        <option value='1998' >
+                1998            </option>
+                        <option value='1997' >
+                1997            </option>
+                        <option value='1996' >
+                1996            </option>
+                        <option value='1995' >
+                1995            </option>
+                        <option value='1994' >
+                1994            </option>
+                        <option value='1993' >
+                1993            </option>
+                        <option value='1992' >
+                1992            </option>
+                        <option value='1991' >
+                1991            </option>
+                        <option value='1990' >
+                1990            </option>
+                        <option value='1989' >
+                1989            </option>
+                        <option value='1988' >
+                1988            </option>
+                        <option value='1987' >
+                1987            </option>
+                        <option value='1986' >
+                1986            </option>
+                        <option value='1985' >
+                1985            </option>
+                        <option value='1984' >
+                1984            </option>
+                        <option value='1983' >
+                1983            </option>
+                        <option value='1982' >
+                1982            </option>
+                        <option value='1981' >
+                1981            </option>
+                        <option value='1980' >
+                1980            </option>
+                        <option value='1979' >
+                1979            </option>
+                        <option value='1978' >
+                1978            </option>
+                        <option value='1977' >
+                1977            </option>
+                        <option value='1976' >
+                1976            </option>
+                        <option value='1975' >
+                1975            </option>
+                        <option value='1974' >
+                1974            </option>
+                        <option value='1973' >
+                1973            </option>
+                        <option value='1972' >
+                1972            </option>
+                        <option value='1971' >
+                1971            </option>
+                        <option value='1970' >
+                1970            </option>
+                </select>
+                                            </div>
+                                        <label class="pull-left mt7 mlx15 pdnnleft"> To </label>
+                                        <div class="clearfix visible-xs"></div>
+                                        <div class="col-md-2 col-sm-2">
+                                                                                        
+    <select name="From[1][regbatchto]" id='regbatchto_1'
+            class="form-control batchToValidate" onchange="">
+                            <option value='0' selected>
+                YYYY            </option>
+                        <option value='2016' >
+                2016            </option>
+                        <option value='2015' >
+                2015            </option>
+                        <option value='2014' >
+                2014            </option>
+                        <option value='2013' >
+                2013            </option>
+                        <option value='2012' >
+                2012            </option>
+                        <option value='2011' >
+                2011            </option>
+                        <option value='2010' >
+                2010            </option>
+                        <option value='2009' >
+                2009            </option>
+                        <option value='2008' >
+                2008            </option>
+                        <option value='2007' >
+                2007            </option>
+                        <option value='2006' >
+                2006            </option>
+                        <option value='2005' >
+                2005            </option>
+                        <option value='2004' >
+                2004            </option>
+                        <option value='2003' >
+                2003            </option>
+                        <option value='2002' >
+                2002            </option>
+                        <option value='2001' >
+                2001            </option>
+                        <option value='2000' >
+                2000            </option>
+                        <option value='1999' >
+                1999            </option>
+                        <option value='1998' >
+                1998            </option>
+                        <option value='1997' >
+                1997            </option>
+                        <option value='1996' >
+                1996            </option>
+                        <option value='1995' >
+                1995            </option>
+                        <option value='1994' >
+                1994            </option>
+                        <option value='1993' >
+                1993            </option>
+                        <option value='1992' >
+                1992            </option>
+                        <option value='1991' >
+                1991            </option>
+                        <option value='1990' >
+                1990            </option>
+                        <option value='1989' >
+                1989            </option>
+                        <option value='1988' >
+                1988            </option>
+                        <option value='1987' >
+                1987            </option>
+                        <option value='1986' >
+                1986            </option>
+                        <option value='1985' >
+                1985            </option>
+                        <option value='1984' >
+                1984            </option>
+                        <option value='1983' >
+                1983            </option>
+                        <option value='1982' >
+                1982            </option>
+                        <option value='1981' >
+                1981            </option>
+                        <option value='1980' >
+                1980            </option>
+                        <option value='1979' >
+                1979            </option>
+                        <option value='1978' >
+                1978            </option>
+                        <option value='1977' >
+                1977            </option>
+                        <option value='1976' >
+                1976            </option>
+                        <option value='1975' >
+                1975            </option>
+                        <option value='1974' >
+                1974            </option>
+                        <option value='1973' >
+                1973            </option>
+                        <option value='1972' >
+                1972            </option>
+                        <option value='1971' >
+                1971            </option>
+                        <option value='1970' >
+                1970            </option>
+                </select>
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="padding-left:0;"  class="col-md-2 col-sm-2 control-label" for="textinput">Course Type</label>
+                                        <div class="col-md-6 col-sm-6">
+                                                                                        
+    <select name="From[1][coursetype]" id='coursetype_1'
+            class="form-control courseValidation" onchange="">
+                            <option value='' selected>Select</option>
+                        <option value='1' >
+                Full Time            </option>
+                        <option value='2' >
+                Part Time            </option>
+                        <option value='3' >
+                Distance Learning program            </option>
+                        <option value='4' >
+                Executive Program            </option>
+                </select>
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="padding-left:0;"  class="col-md-2 col-sm-2 control-label" for="textinput">Degree</label>
+                                        <div class="col-md-6 col-sm-6">
+                                                                                        
+    <select name="From[1][degree]" id='degree_1'
+            class="form-control input-md degreeValidation" onchange="">
+                            <option value='' selected>Select</option>
+                        <option value='1' >
+                MBA / PGDM            </option>
+                        <option value='2' >
+                CA            </option>
+                        <option value='3' >
+                CS            </option>
+                        <option value='4' >
+                ICWA            </option>
+                        <option value='5' >
+                LLB / LLM            </option>
+                       
+                        <option value='8' >
+                BSc            </option>
+                        <option value='9' >
+                BA            </option>
+                        <option value='10' >
+                Bcom            </option>
+                        <option value='11' >
+                BBA            </option>
+                        
+                MA            </option>
+                        <option value='16' >
+                Integrated Masters Program            </option>
+                        <option value='17' >
+                CFA            </option>
+                        <option value='12' >
+                Other            </option>
+                </select>
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="padding-left:0;"  class="col-md-2 col-sm-2 control-label" for="textinput"></label>
+                                        <div class="col-md-7 col-sm-7">
+                                            <a class="delete greenbtnmedium mb10 pull-left" href="javascript:void(0);" title="Remove row" style="display: none;">Delete</a>
+                                            <div class="clearfix"></div>
+                                            <a class="add drkgreybtnmedium pull-left text-center col-md-3 col-sm-5 col-xs-12" href="javascript:void(0);" title="Add new row">Add degree +</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                                    </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group text-center">
+                            <a href="http://www.hirist.com/registration/registration.php?profiletype=1"  class="greentxt txt16 mt5">Back</a>
+                            <input class="greenbtnmedium ml25" id="profileSave" type="submit" name="edusubmit"  value="Save &AMP; Next >>" title="Save" alt="Save">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="panel panel-default ppe" style="display:none" >
+            <!--<div class="panel-heading pull-left full_container mb20" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">-->
+
+            <div class="panel-heading pull-left full_container mb20" data-toggle="collapse" >
+
+                <h4 class="panel-title pull-left">
+                    <a>Professional Details</a>
+                </h4>
+                <span class="pull-right text-warning">* All fields are Mandatory</span>
+            </div>
+
+            <div id="collapseThree" class="panel-collapse collapse ">
+                <form class="form-horizontal applyform" id="professionForm" name="professionForm" action="controller.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                    <input type="hidden" name="submitOnce" id="submitOnce" value=0 />
+                    <input type="hidden" name="source"  value="" />
+                    <input type="hidden" name="flowtype" id="flowtype" value="22"/>
+                    <input type="hidden" name="redirectto" id="redirectto" value=""/>
+                    <input type="hidden" name="pd" id="pd" value=""/>
+                    <input type="hidden" name="ed" id="ed" value=""/>
+                    <input type="hidden" name="pro" id="pro" value=""/>
+                    <input type="hidden" name="ur" id="ur" value=""/>
+                    <input type="hidden" name="skip" id="skip" value="skip"/>
+                    <div class="panel-body">
+<!--                        <div class="expstatus" >
+                            <div class="pull-left pd0 col-md-3 col-sm-3 col-xs-12">
+                                <input type="checkbox" class="pull-left exp_status" name="exp_status" value="1"  id="fresher" >
+                                <span class="pull-left col-md-11 col-sm-11 col-xs-11">I do not have any prior work experience</span>
+                            </div>
+                            <div class="pull-left col-md-4 col-sm-4 col-xs-12 pd0">
+                                <input type="checkbox" class="pull-left exp_status" name="exp_status" value="2" id="unemployed" >
+                                <span <span class="pull-left col-md-11 col-sm-11 col-xs-11">I am currently not working anywhere</span>
+                            </div>
+                        </div>-->
+
+                        <div class="clearfix"></div>
+                        <div id="professionDiv" >
+                            <div class="pull-left col-md-12 col-sm-12 multiple-profession pullnne">
+
+                                
+                                    <div class="inputRow mt20 ">
+                                        <div class="form-group">
+                                            <label style="padding-left:0;"  style="padding-left:0;" class="col-md-2 control-label" for="textinput" >Designation</label>
+                                            <div class="col-md-4 col-sm-4">
+                                                <input class="form-control input-md" type="text" id="regdesignation_1" name="From[1][designation]" value=""
+                                                       data-rule-required="true" data-msg-required="Please enter the designation." data-rule-maxlength="200" data-msg-maxlength="Please enter max 200 character."/>
+                                            </div>
+                                            <div class="checkbox col-md-4 col-sm-4 profmessage" >
+                                                <label style="padding-left:0;"  for="checkboxes-0">
+                                                    <input type="checkbox" class="is_current" name="From[1][is_current]" id="is_current_1" value="1" >
+                                                    I currently work here
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="padding-left:0;"  class="col-md-2 col-sm-2 control-label" for="textinput">Organization</label>
+                                            <div class="col-md-4">
+                                                                                                <input class="form-control input-md" type="hidden"  id="regorganizationval_1"  name="From[1][organizationval]" value="" />
+                                                <input class="form-control input-md organizationList"   type="text"  id="regorganization_1"                                                         name="From[1][organization]" value=""
+                                                       data-rule-required="true" data-rule-maxlength="200" data-msg-maxlength="Please enter max 200 character." data-msg-required="Please enter the organization." />
+                                            </div>
+                                            <div class="col-md-1 col-sm-1"><span name ="reset_1" id="reset_organization_1" class="suggestion-reset greentxt mt7 pull-left">Edit</span></div>
+                                        </div>
+                                       
+                                            
+                                            
+                                                                                                
+   
+                                               
+                                            
+               
+                       
+                                            
+                                            <div class="col-md-2 col-sm-2 toperiod-present mt7" style="display:none;">
+                                                <span name="present_1" class="present" id="present_1">Present</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="padding-left:0;"  class="col-md-2 control-label" for="textinput"></label>
+                                            <div class="col-md-7 col-sm-7">
+                                                <a class="delete greenbtnmedium mb10 pull-left" href="javascript:void(0);" title="Remove row" style="display: none;">Delete</a>
+                                                <div class="clearfix"></div>
+                                                <a class="add drkgreybtnmedium mb10 pull-left col-md-3 col-sm-5 col-xs-12 text-center" href="javascript:void(0);" title="Add new row">Add Position +</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group text-center mt10 ppe">
+                            <a href="http://www.hirist.com/registration/registration.php?profiletype=1&e"  class="greentxt txt16 mt5">Back</a>
+                            <input class="greenbtnmedium ml25" id="profileSave" type="submit" name="prosubmit"  value="Save &AMP; Next  >>" title="Save" alt="Save">
+                                                        <input class="greenbtnmedium ml25" id="profileSkip" type="submit" name="proskip"  value="Skip  >>" title="Skip" alt="Skip">
+                                                    </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="panel panel-default ppe" style="display:none" >
+            <!--            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">-->
+            <div class="panel-heading pull-left full_container mb20" data-toggle="collapse" >
+
+                <h4 class="panel-title pull-left">
+                    <a>Please upload your resume here</a>
+                </h4>
+                <span class="pull-right text-warning">* All fields are Mandatory</span>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse ">
+                <form class="form-horizontal applyform" id="resumeForm" name="resumeForm" action="controller.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                    <!--<input type="hidden" name="submitOnce" id="submitOnce" value=0 />-->
+                    <input type="hidden" name="source"  value="" />
+                    <input type="hidden" name="flowtype" id="flowtype" value="23"/>
+                    <input type='hidden' id="resumename" name='resumename' value=''/>
+                    <input type='hidden' id="profilepicpath" name='profilepicpath' value=''/>
+                    <input type="hidden" name="redirectto" id="redirectto" value=""/>
+                    <input type="hidden" name="pd" id="pd" value=""/>
+                    <input type="hidden" name="ed" id="ed" value=""/>
+                    <input type="hidden" name="pro" id="pro" value=""/>
+                    <input type="hidden" name="ur" id="ur" value=""/>
+                    <!--<input value="4194304" name="MAX_FILE_SIZE" type="hidden">-->
+                    <!--<input value="" name="userfilename" type="hidden" id="userfilename">-->
+                    <div class="panel-body">
+                        <div class="pull-left col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label class="col-md-5 col-sm-5 control-label" for="textinput" style="padding-top:0;">Attach Resume <br/>(File format: Pdf, Doc, Docx)</label>
+                                <div class="col-md-7 col-sm-7">
+                                    <!--<input id="filebutton" name="filebutton" class="input-file" type="file">onchange="validateFile('regfile');" -->
+                                    <input class="input-file" id="file" size="20" accesskey="A" name="file" type="file"  >
+                                    <p style="color:#000000;">Upload new file to update existing resume</p>
+                                </div>
+                            </div>
+                                                    </div>
+                                                <div class="pull-left col-md-6 col-sm-6 col-xs-12" style="display:block;">
+                            <div class="form-group">
+                                <label class="col-md-5 col-sm-5 control-label" for="textinput" style="padding-top:0;">Attach Profile Image <br/>(File format: png, jpeg, jpg)</label>
+                                <div class="col-md-7 col-sm-7">
+                                    <!--<input id="filebutton" name="filebutton" class="input-file" type="file">onchange="validateFile('regfile');" -->
+                                    <input class="input-file" id="profilepic" size="20" accesskey="A" name="profilepic" type="file"  >
+                                </div>
+                            </div>
+                                                    </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group text-center">
+                            <a href="http://www.hirist.com/registration/registration.php?profiletype=1&p" class="greentxt txt16 mt5">Back</a>
+                            <input class="greenbtnmedium ml25" id="profileSave" type="submit" name="prosubmit"  value="Save" title="Save" alt="Save">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
