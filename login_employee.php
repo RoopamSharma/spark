@@ -26,8 +26,16 @@ if(mysql_num_rows($result)==1 )
 $row=mysql_fetch_array($result);
 $_SESSION['ID'] = $row['ID'];
 $_SESSION['email']=$row['email']; 
+$_SESSION['difficulty_level']='1';
+    $_SESSION['category']="LINUX DEBUGGING";
+$_SESSION['subcategory']="RED HAT";
+$_SESSION['subsubcategory']="open source";
 setcookie('user_id', $row['ID'], time() + (60 * 60 * 24 * 30));    // expires in 30 days
 setcookie('email', $row['email'], time() + (60 * 60 * 24 * 30));  // expires in 30 days
+/*setcookie('category',$row['category'],time() + (60 * 60 * 24 * 30));
+setcookie('subcategory',$row['subcategory'],time() + (60 * 60 * 24 * 30));
+setcookie('subsubcategory',$row['subsubcategory'],time() + (60 * 60 * 24 * 30));*/
+
 header('location: finaluserprofile.php');
 }
 else
@@ -41,7 +49,7 @@ mysql_close();
 }
 else
 {
-echo"got it,already logged in";
-header('location: viewprofile.php');
+//echo"got it,already logged in";
+header('location: finaluserprofile.php');
 }
 ?>

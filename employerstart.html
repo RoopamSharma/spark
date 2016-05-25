@@ -2,13 +2,45 @@
 <head>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
+<script type="text/javascript">
+function check()
+{
+document.getElementById("loginForm").onsubmit = function () {
+    if (!document.getElementById("username").value) {
+      alert('Username cant be empty');
+        return false;
+    }
+    if (!document.getElementById("password").value) {
+      alert('Password cannot be empty')
+        return false;
+    }
+}
+}
+function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+{
+document.loginForm.username.focus();
+return true;
+
+}
+else
+{
+alert("You have entered an invalid email address!Enter again");
+document.getElementById("loginForm").reset();
+return false;
+}
+}
+</script>
 <body>
     <div id="login-overlay" class="modal-dialog">
       <div class="modal-content">
           <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-              <h4 class="modal-title" id="myModalLabel">Login to site.com</h4>
+              <button type="button" class="close" data-dismiss="modal"><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Login as an Employer</h4>
           </div>
           <div class="modal-body">
               <div class="row">
@@ -17,22 +49,22 @@
                           <form id="loginForm" method="POST" action="login_employer.php"novalidate="novalidate">
                               <div class="form-group">
                                   <label for="username" class="control-label">Username</label>
-                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <input type="email" class="form-control" id="username" name="username" title="Please enter your username" placeholder="example@gmail.com" required>
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
                                   <label for="password" class="control-label">Password</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <input type="password" class="form-control" id="password" name="password" required="required" title="Please enter your password" onblur="checkTextField(this);" required>
                                   <span class="help-block"></span>
                               </div>
                               <div id="loginErrorMsg" class="alert alert-error hide">Wrong username or password</div>
-                              <div class="checkbox">
+                              <!--<div class="checkbox">
                                   <label>
                                       <input type="checkbox" name="remember" id="remember"> Remember login
                                   </label>
                                   <p class="help-block">(if this is a private computer)</p>
-                              </div>
-                              <button type="submit" class="btn btn-success btn-block">Login</button>
+                              </div>-->
+                              <button type="submit" class="btn btn-success btn-block" id="btnSubmit" onclick="check(); ValidateEmail(document.formLogin.username);">Login</button>
                               <a href="/forgot/" class="btn btn-default btn-block">Help to login</a>
                           </form>
                       </div>
@@ -52,4 +84,5 @@
       </div>
   </div>
 </body>
+
 </html>

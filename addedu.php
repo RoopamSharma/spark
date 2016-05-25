@@ -155,7 +155,7 @@ if (isset($_POST['submit_val1'])) {
 if ($_POST['dynfields']) {
 $capture_field_vals ="";
 foreach ( $_POST['dynfields'] as $key=>$value ) {
- $capture_field_vals .= $value .", ";
+ $capture_field_vals .= $value .", ";                            //stores values in form of an array separated by , 
 }}
 
 $dbc = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) or die(mysql_error());

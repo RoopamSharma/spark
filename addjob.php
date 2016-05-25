@@ -7,7 +7,7 @@ session_start();
       $_SESSION['co_email'] = $_COOKIE['co_email'];
     }
   }
-echo "hi";
+//echo "hi";
 require_once('connect.php');
  //Make sure the employer is logged in before going any further.
  if (!isset($_SESSION['employerid'])) {
@@ -15,16 +15,16 @@ require_once('connect.php');
   exit();
   }
   else {
-  echo('<p class="login">You are logged in as ' . $_SESSION['employerid'] . '. <a href="logoutemployer.php">Log out</a>.</p>');
+  //echo('<p class="login">You are logged in as ' . $_SESSION['employerid'] . '.</p>');
  }
 
   // Connect to the database
   $dbc = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) or die(mysql_error());
-  echo "kim";
+  //echo "kim";
   mysql_select_db(DB_NAME);
   if (isset($_POST['submit'])) 
   {
-    echo "joe";
+    //echo "joe";
     $jobtitle=mysql_real_escape_string(trim($_POST['jobtitle']),$dbc);
     $description=mysql_real_escape_string(trim($_POST['description']),$dbc);
     $opening=mysql_real_escape_string(trim($_POST['opening']),$dbc);
@@ -34,7 +34,7 @@ require_once('connect.php');
 
     if(!empty($jobtitle) && !empty($description) && !empty($opening) && !empty($industry) && !empty($postdate) && !empty($deadline))
     {
-       echo "how";
+      // echo "how";
        $result=mysql_query("SELECT employerid FROM employer WHERE employerid = '" . $_SESSION['employerid'] . "'");
 
        $row = mysql_fetch_row($result);
@@ -42,9 +42,11 @@ require_once('connect.php');
       $query="INSERT into job(employerid,job_title,job_description,opening,industry,postdate,deadline) VALUES ('$row[0]','$jobtitle','$description','$opening','$industry','$postdate','$deadline')";
      mysql_query($query,$dbc) or die(mysql_error());
      // Confirm success with the employer
-        echo 'Job Successfully Posted';
-        mysql_close();
-        exit();
+        //echo 'Job Successfully Posted';
+      mysql_close();
+       // exit();
+         header('Location:employerdash.php');
+    
      }
      else
      {

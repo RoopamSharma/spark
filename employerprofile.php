@@ -18,46 +18,12 @@
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 </head>
 <body>
- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="employerprofile.php">Profile<span class="sr-only">(current)</span></a></li>
-        <li><a href="editemployerprofile.php">Edit</a></li>
-        <li><a href="postjob.php">Post Job</a></li>
-       <!-- <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>-->
-      </ul>
-      
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="logout.php">Logout</a></li>
-      </ul>
-    </div>
-  </div>
-</nav> 
+ 
 <?php
+
   require_once('uploadvars.php');
   require_once('connect.php');
+
   
     // Make sure the user is logged in before going any further.
   if (!isset($_SESSION['employerid'])) {
@@ -65,16 +31,17 @@
     exit();
   }
   else {
-    echo('<p class="login">You are logged in as ' . $_SESSION['employerid'] . '. <a href="logoutemployer.php">Log out</a>.</p>');
+    //echo('<p class="login">You are logged in as ' . $_SESSION['employerid'] . '. <a href="logoutemployer.php">Log out</a>.</p>');
   }
+  include('employer_header.php');
   $dbc = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) or die(mysql_error());
 mysql_select_db(DB_NAME);
   // Grab the profile data from the database
   if (!isset($_GET['employerid'])) {
-    $query = "SELECT name, co_name,co_email,co_type,co_about,logo FROM employer WHERE employerid = '" . $_SESSION['employerid'] . "'";
+    $query = "SELECT name, co_name,co_email,co_type,co_about,emp_picture FROM employer WHERE employerid = '" . $_SESSION['employerid'] . "'";
   }
   else {
-    $query = "SELECT name, co_name,co_email,co_type,co_about,logo FROM employer WHERE employerid = '" . $_GET['employerid'] . "'";
+    $query = "SELECT name, co_name,co_email,co_type,co_about,emp_picture FROM employer WHERE employerid = '" . $_GET['employerid'] . "'";
   }
   $data = mysql_query($query,$dbc) or die(mysql_error());
  if (mysql_num_rows($data) == 1) {
@@ -82,7 +49,7 @@ mysql_select_db(DB_NAME);
     $row = mysql_fetch_array($data);
  ?>
 <div class="container" style="padding-top: 60px;">
-  <h1 class="page-header">Your Company Profile</h1>
+  <h3 class="page-header">Your Company Profile</h3>
   <div class="row">
     <!-- left column -->
     <div class="col-md-4 col-sm-6 col-xs-12">
@@ -90,7 +57,7 @@ mysql_select_db(DB_NAME);
         <?php
          //echo '<img src="' . MM_UPLOADPATH . $row['picture'] .
         //'" alt="Profile Picture" class="avatar img-circle img-thumbnail" alt="avatar" />';
-        echo '<img src="data:image/png;base64,' . base64_encode($row['logo']) . '"width="160" height="160"alt="Profile Picture" class="avatar img-circle img-thumbnail" alt="avatar" />';
+        echo '<img src="uploads/' . $row['emp_picture'] . '"width="160" height="160"alt="Profile Picture" class="avatar img-square img-thumbnail" alt="avatar" />';
         ?>
       </div>
     </form>
@@ -98,25 +65,20 @@ mysql_select_db(DB_NAME);
    
     <!-- form column -->
     <div class="col-md-8 col-sm-6 col-xs-12 personal-info">
-      <h3>Personal info</h3>
-      <form class="form-horizontal" role="form">
-       
-        <div class="form-group">
-          <label class="col-lg-3 control-label">Company name:</label>
-          <div class="col-lg-8">
+      <h3>Company info</h3>
+          <label>Company name:</label>
+          
            <?php echo $row['co_name']?>
-          </div>
-        </div>
-       
-        <div class="form-group">
-          <label class="col-lg-3 control-label">About us:</label>
-          <div class="col-lg-8">
+           <br/>
+           
+          <label>About us:</label>
+          
             <?php echo $row['co_about'] ?>
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="col-lg-3 control-label">Company Type:</label>
-          <div class="col-lg-8">
+         <br/>
+         
+        
+          <label>Company Type:</label>
+         
             <?php
             if ($row['co_type'] == 'MNC') {
         echo 'MNC';

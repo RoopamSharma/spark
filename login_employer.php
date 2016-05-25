@@ -31,15 +31,18 @@ setcookie('employerid', $row['employerid'], time() + (60 * 60 * 24 * 30));    //
 setcookie('emailco', $row['co_email'], time() + (60 * 60 * 24 * 30));  // expires in 30 days
 header('location: employerdash.php');
 }
-else
-{
-echo 'Username or password is wrong';
-}
+else 
+ {
+  echo '<script type="text/javascript">'
+   , 'setTimeout();'
+   , '</script>';
+ }
 }
 
 mysql_close();
 
 }
+
 else
 {
 header('location:employerprofile.php');
@@ -47,3 +50,13 @@ echo"got it,already logged in";
 
 }
 ?>
+<script type="text/javascript">
+setTimeout(function () {
+
+	alert('Username or password is wrong');
+   window.location.href= 'employerstart.html'; // the redirect goes here
+
+},1000); // 1 seconds
+
+
+</script>

@@ -49,10 +49,10 @@ mysql_select_db(DB_NAME);
   $data = mysql_query($query,$dbc);
 
   if (mysql_num_rows($data) == 1) {
-    // The user row was found so display the user data
+    // The user row was found so display the user data   
     $row = mysql_fetch_array($data);
     echo '<table>';
-    if (!empty($row['email'])) {
+ if (!empty($row['email'])) {
       echo '<tr><td class="label">Username:</td><td>' . $row['email'] . '</td></tr>';
     }
     if (!empty($row['firstname'])) {
