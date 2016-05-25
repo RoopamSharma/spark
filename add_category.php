@@ -4,7 +4,7 @@ include("function/dbMySql.php");
 
 $con = new DB_con();
 date_default_timezone_set('Asia/Kolkata');
-// data insert code starts here.
+// data insert code start here.
 if(isset($_POST['submit']))
 {
  echo $category_name=$_POST['category_name'];
