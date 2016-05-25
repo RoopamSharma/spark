@@ -1,0 +1,2379 @@
+@media only screen and (max-width:990px){
+
+.mdl-container{
+	width:100%;
+}
+.logo-form-box{
+	width:100%;
+}
+.logo-box{
+	width:82%;
+	margin-left:108px;
+}
+.logo-box img{
+}
+.form-box{
+	width:48%;
+	float:left;
+	margin-left:135px;
+    margin-right:0px;
+}
+.text-hdng-footer-box{
+	width:100%;
+}
+.text-hdng-box{
+	width:90%;
+}
+.text-hdng-box img{
+	width:100%;
+}
+.footer-box{
+	width:100%;
+}
+.social-icon-box{
+	width:66%;
+}
+.develope{
+	width:100%;	
+	background:rgba(01, 01, 01, 0.5);
+	height:30px;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/******************** Search Page ***********************/
+
+.find-out-box{
+	width:100%;
+}
+.find-out-box img{
+	width:100%;
+}
+.inner-contant-box{
+	width:99%;
+	padding:0px;
+}
+.content-top-bg-box{
+	width:98%;
+	margin-top:15px;
+	margin-left:1%;
+	display:none;
+}
+.matches-found-you-searched{
+	width:95%;
+	margin-left:1%;
+	padding:3px;
+}
+.matches-heading-search-ul-box{
+	width:100%;
+}
+.matches-heading-search-ul-box h2{
+	width:60%;
+	margin-left:0%;
+}
+.matches-heading-search-ul-box ul{
+	margin-top:5px;
+	float:left;
+}
+.matches-heading-search-ul-box ul li a{
+	padding:0px 10px;
+}
+.matches-profile-box{
+	width:98%;
+	padding:2px;
+}
+.next-prev-box{
+	width:44%;
+	float:right;
+	margin:10px 0px 0px 25px;
+}
+.next-prev-box ul{
+	width:150px;
+	margin-top:0px;
+}
+.img-boxses-box{
+	width:100%;
+}
+.img-box-1{
+	margin-left:121px;
+}
+.you-searched-box{
+	float:left;
+	margin-top:20px;
+	width:96%;
+	margin-left:2%;
+}
+.basic-edit-box{
+	width:45%;
+}
+.coustumize-box{
+	width:46%;
+	float:right;
+	margin-top:5px;
+}
+.coustumize-ul-li-box{
+	width:94%;
+}
+.footer-inr-box{
+	width:100%;
+}
+.copy-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 0px 0px;
+}
+.develope-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 10px 0px;
+}
+.complete-box{
+	margin:10px 0px 0px 42px;
+	float:left;
+}
+/******************** Registration Page ***********************/
+.top-manu-bg-box{
+	width:97%;
+	float:left;
+	margin-left:1%;
+	margin-top:8%;
+}
+.user-email-box{
+	margin-left:10px;
+}
+.inner-reg-contant-box{
+	width:98%;
+	padding:12px 2px 12px 2px;
+}
+.menu-inr-box{
+	width:100%;
+}
+.regt-top-bg-box{
+	display:none;
+}
+.register-form-text-box{
+	width:95%;
+	margin-left:1%;
+	padding:5px;
+}
+.register-button-box{
+	width:100%;
+}
+.register-button-box h1{
+	height:52px;
+}
+.register-button-box a.base{
+	margin-bottom:10px;
+}
+.buttons-box{
+	width:100%;
+}
+.bullet-icon{
+	margin:2px 0px 10px 55px;
+}
+.dark-brown-prev-btn-box{
+	width:25%;
+}
+.dark-brown-next-btn-box{
+	width:25%;
+}
+.content-inr-part-box{
+	width:100%;
+}
+
+
+
+/************ My Account Page ******************/
+
+.profile-account-box{
+	width:94%;
+	margin-left:4px;
+}
+.profile-text-box{
+	width:100%;
+	min-height:192px;
+}
+.profile-pic-box{
+	float:left;
+	width:30%;
+}
+.profile-pic-text-box{
+	float:right;
+	width:61%;
+	margin:0px 0px 0px 20px;
+}
+.profile-account-content-box{
+	width:95%;
+	padding:10px 10px;
+	text-align:justify;
+	margin-top:0px;
+}
+
+
+/************ Subscription Page 1 ******************/
+
+.subscription-main-box{
+	width:100%;
+}
+.add-more-box{
+	width:100%;
+	clear:both;
+}
+.add-morer-content-box{
+	width:100%;
+	margin-left:0px;
+}
+.profile-text-box12{
+	width:70%;
+	float:left;
+}
+.profile-pic-text-box12{
+	width:100%;
+	margin-left:20px;
+	float:left;
+	margin-top:15px;
+}
+.main-chat-content-box {
+    height:350px;
+    left:353px;
+    top: 12px;
+}
+
+
+/************ Subscription Page 3 ******************/
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.creadit-box {
+    border-right: medium none;
+    margin-left: 142px;
+    width: 70%;
+}
+.billing-box{
+	width:70%;
+	float:left;
+	padding-left:142px;
+}
+.payment-form-text {
+    padding: 0 15px;
+    width: 90%;
+}
+.review-subscribe-box {
+    margin: 25px 144px;
+    width: 51%;
+}
+
+
+
+
+/************ My Profile  ******************/
+
+.photos-box-left{
+	width:100%;
+}
+.photos-box-right{
+	width:58%;
+	float:left;
+}
+.about-me-box{
+	width:100%;
+}
+.main-profile-photos-cont-box{
+	width:100%;
+}
+.photos-thum-main-box{
+	float:left;
+}
+.photos-of-pro-box{
+	width:256px;
+}
+.photos-of-pro-box img{
+	width:256px;
+}
+.about-me-box textarea{
+	width:94%;
+	margin-left:1%;
+}
+.profile-insights-your-publ{
+	width:100%;
+	float:left;
+}
+.profile-insights{
+	width:94%;
+	margin-top:10px;
+	margin-left:1%;
+}
+.your-public-box{
+	width:94%;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+
+/************ Search Inr Page 2 ******************/
+
+.heading-part-box{
+	width:100%;
+}
+.srch-pro-detail-box1{
+	width:100%;
+}
+.srch-pro-text-box{
+	width:92%;
+	float:left;
+}
+.social-icon-send-link{
+	width:100%;
+}
+.send-request{
+	float:left;
+}
+.send-request .btn input[type="button"]{
+	float:right;
+}
+.srch-script-box{
+	width:100%;
+}
+.jcarousel-skin-tango-green .jcarousel-container-horizontal, .jcarousel-skin-tango-green-top-bande .jcarousel-container-horizontal {
+	width:100% !important;
+}
+.jcarousel-skin-tango-green .jcarousel-clip-horizontal{
+	width:95% !important;
+}
+
+
+
+
+
+
+
+
+/************ Date Spark Page ******************/
+
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.logo-small-how-will-text-box {
+    margin-bottom:10px;
+    margin-left:10px;
+    width:91%;
+}
+.date-spark-main-box{
+	width:100%;
+}
+.margin-none-textarea textarea{
+	width:100%;
+}
+.spark-row-box{
+	width:95%;
+	margin-left:10px;
+}
+.spark-row-box .select-spark{
+	width:100%;
+}
+
+
+
+/************ We Love Page ******************/
+
+.we-love-main-search-box{
+	width:100%;
+}
+.love-search-box{
+	width:100%;
+}
+.love-search-box .input-search-love{
+	width:83%;
+}
+.love-email-online-box{
+	float:left;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+
+/************  Profile Visibility Page  ******************/
+
+.profile-visibility{
+	 width:90.5%;
+	 margin-left:7px;
+	 margin-bottom:10px;
+}
+.your-profile-text-box{
+	width:100%;
+}
+.yor-pro-txt-box{
+	width:100%;
+	margin-top:10px;
+	margin-left:0px;
+}
+.yor-pro-visible-box{
+	width:100%;
+}
+
+
+/************  User Profile Page  ******************/
+
+
+.user-profile-main-box{
+	width:100%;
+}
+.favorites-box{
+	border-right:1px solid #e4d6cf;
+}
+.favorites-want-box{
+	width:100%;
+}
+.favorites-want-box{
+	width:100%;
+}
+.take-look-box{
+	width:100%;
+	margin-left:10px;
+}
+.profile-id-box{ 
+	margin-left: 10px;
+    width:89.5%;
+}
+.profile-id-box-right{
+	width:100%;
+}
+.want-to-box{
+	margin-left:30px;
+}
+
+
+
+/************  Comments Page  ******************/
+
+.comments-pic-input-box{
+	width:100%;
+}
+.comments-pic-input-box .textarea{
+	width:83%;
+}
+.like-comments-box{
+	width:100%;
+}
+
+
+/************  Group Page  ******************/
+
+.group-right-part{
+	width:100%;
+	padding:0px;
+	float:left;
+}
+.group-left-part{
+	margin-left:10px;
+}
+.group-right-part-banner{
+	width:100%;
+}
+.group-right-part-banner img{
+	width:100%;
+}
+.write-photo-post-box{
+	width:100%;
+}
+.write-photo-post-hdng{
+	width:100%;
+	margin-left:10px;
+	
+}
+
+/************  Blog Page  ******************/
+
+.blog-main-box{
+	width:100%;
+}
+.blog-heading-box{
+	width:97%;
+}
+.blog-1-box{
+	width:95%;
+	padding:2%;
+}
+
+
+
+
+
+/************  Messages Page  ******************/
+
+
+.inbox-mail-box{
+	width:100%;
+}
+.inbox-box{
+	width:100%;
+}
+.mail-box{
+	width:94%;
+	padding:10px;
+	margin-top:10px;
+	border-left:none;
+}
+.mail-box-1{
+	width:100%;
+	min-height:115px;
+}
+.mail-text-box{
+	width:100%;
+}
+
+
+
+
+
+/************  Subscribtion 1 Page  ******************/
+
+
+.logo-and-user-detail{
+	width:100%;
+}
+.package-user-detail-box{
+	width:93%;
+	padding:8px;
+	min-height:170px;
+}
+.sbuscription-package-box{
+	width:100%;
+	margin-top:40px;
+}
+.sbuscription-package-box h1{
+	line-height:30px;
+	margin-bottom:0px
+}
+.special-offer-main-box{
+		width:100%;
+}
+.special-offer-text-box{
+	border-right:none;
+	width:38%;
+}
+.package-basic-text-box{
+	width:30%;
+	float:left;
+	margin-left:5px;
+}
+.select-plan-btn{
+	float:left;
+	margin:30px 0 10px 0px;
+}
+.great-saving-main-box{
+	width:100%;
+}
+.great-month-box{
+	width:29%;
+	border-right:none;
+}
+.great-month-text-box{
+	width:30%;
+	height:65px;
+}
+.save-bg-text-box{
+	margin-bottom:0px;
+}
+
+.select-plan-2-btn{
+	margin:20px 0 10px 0px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+.mdl-container{
+	width:100%;
+}
+.logo-form-box{
+	width:100%;
+}
+.logo-box{
+	width:51%;
+	margin-left:40px;
+}
+.logo-box img{
+}
+.form-box {
+    float: right;
+    margin-right: 15px;
+    margin-left:0px;
+    width: 40%;
+}
+.text-hdng-footer-box{
+	width:100%;
+}
+.text-hdng-box{
+	width:100%;
+}
+.text-hdng-box img {
+    float: right;
+    width: 74%;
+}
+.footer-box{
+	width:100%;
+}
+.social-icon-box{
+	width:60%;
+}
+.develope{
+	width:100%;	
+	background:rgba(01, 01, 01, 0.5);
+	height:30px;
+	text-align:center;
+	padding-top:10px;
+}
+
+/******************** Search Page ***********************/
+
+.find-out-box{
+	width:41%;
+}
+.find-out-box img{
+	width:100%;
+}
+.inner-contant-box{
+	width:99%;
+	padding:0px;
+}
+.content-top-bg-box{
+	width:98%;
+	margin-top:15px;
+	margin-left:1%;
+	display:none;
+}
+.matches-found-you-searched{
+	width:95%;
+	margin-left:1%;
+	padding:3px;
+}
+.matches-heading-search-ul-box{
+	width:100%;
+}
+.matches-heading-search-ul-box h2{
+	width:60%;
+	margin-left:0%;
+}
+.matches-heading-search-ul-box ul{
+	margin-top:5px;
+	float:left;
+}
+.matches-heading-search-ul-box ul li a{
+	padding:0px 10px;
+}
+.matches-profile-box{
+	width:98%;
+	padding:2px;
+}
+.next-prev-box{
+	width:34%;
+	float:right;
+	margin:10px 0px 0px 25px;
+}
+.next-prev-box ul{
+	width:150px;
+	margin-top:0px;
+}
+.img-boxses-box{
+	width:100%;
+}
+.img-box-1{
+	margin-left:34px;
+}
+.you-searched-box{
+	float:left;
+	margin-top:20px;
+	width:96%;
+	margin-left:2%;
+}
+.basic-edit-box{
+	width:45%;
+}
+.coustumize-box{
+	width:46%;
+	float:right;
+	margin-top:5px;
+}
+.coustumize-ul-li-box{
+	width:94%;
+}
+.footer-inr-box{
+	width:100%;
+}
+.copy-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 0px 0px;
+}
+.develope-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 10px 0px;
+}
+.complete-box{
+	margin:10px 0px 0px 42px;
+	float:left;
+}
+
+
+/******************** Registration Page ***********************/
+
+
+.top-manu-bg-box{
+	width:97%;
+	float:left;
+	margin-left:1%;
+	margin-top:8%;
+}
+.user-email-box{
+	margin-left:10px;
+}
+.inner-reg-contant-box{
+	width:98%;
+	padding:12px 2px 12px 2px;
+}
+.menu-inr-box{
+	width:100%;
+}
+.regt-top-bg-box{
+	display:none;
+}
+.register-form-text-box{
+	width:95%;
+	margin-left:1%;
+	padding:5px;
+}
+.register-button-box{
+	width:100%;
+}
+.register-button-box h1{
+	height:52px;
+}
+.register-button-box a.base{
+	margin-bottom:10px;
+}
+.buttons-box{
+	width:100%;
+}
+.bullet-icon{
+	margin:2px 0px 10px 120px;
+}
+.dark-brown-prev-btn-box{
+	width:25%;
+}
+.dark-brown-next-btn-box{
+	width:25%;
+}
+.content-inr-part-box{
+	width:100%;
+}
+
+
+/************ My Account Page ******************/
+
+
+.profile-account-box{
+	width:94%;
+	margin-left:4px;
+}
+.profile-text-box{
+	width:100%;
+	min-height:192px;
+}
+.profile-pic-box{
+	float:left;
+	width:28%;
+}
+.profile-pic-text-box{
+	float:left;
+	width:66%;
+	margin:5px 0px 0px 20px;
+}
+.profile-account-content-box{
+	width:94%;
+	padding:10px 10px;
+	text-align:justify;
+	margin-top:0px;
+}
+
+
+/************ Subscription Page 1 ******************/
+
+.subscription-main-box{
+	width:100%;
+}
+.add-more-box{
+	width:100%;
+	clear:both;
+}
+.add-morer-content-box{
+	width:100%;
+	margin-left:0px;
+}
+.profile-text-box12{
+	width:66%;
+	float:left;
+}
+.profile-pic-text-box12 {
+    float: left;
+    margin-left: 41px;
+    margin-top: 0;
+    width: 56%;
+}
+.main-chat-content-box {
+    height:230px;
+    left:535px;
+    top:5px;
+}
+
+
+
+/************ Subscription Page 3 ******************/
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.creadit-box {
+    border-right: medium none;
+    margin-left:38px;
+    width: 40%;
+}
+.billing-box{
+	width:40%;
+	float:left;
+	padding-left:80px;
+}
+.payment-form-text {
+    padding: 0 15px;
+    width:96%;
+}
+.review-subscribe-box {
+    margin:25px 245px;
+    width:40%;
+}
+
+
+
+
+
+/************ My Profile  ******************/
+
+.photos-box-left{
+	width:51%;
+}
+.photos-box-right{
+	width:46%;
+	float:right;
+}
+.about-me-box{
+	width:100%;
+}
+.main-profile-photos-cont-box{
+	width:100%;
+}
+.photos-thum-main-box{
+	float:left;
+}
+.photos-of-pro-box{
+	width:256px;
+}
+.photos-of-pro-box img{
+	width:256px;
+}
+.about-me-box textarea{
+	width:95%;
+	margin-left:1%;
+}
+.profile-insights-your-publ{
+	width:100%;
+	float:left;
+}
+.profile-insights{
+	width:45%;
+	margin-top:10px;
+	margin-left:1%;
+}
+.your-public-box{
+	width:46%;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+
+
+
+/************ Search Inr Page 2 ******************/
+
+.heading-part-box{
+	width:100%;
+}
+.srch-pro-detail-box1{
+	width:100%;
+}
+.srch-pro-text-box{
+	width:71%;
+	float:left;
+}
+.social-icon-send-link{
+	width:100%;
+}
+.send-request{
+	float:left;
+}
+.send-request .btn input[type="button"]{
+	float:right;
+}
+.srch-script-box{
+	width:100%;
+}
+.jcarousel-skin-tango-green .jcarousel-container-horizontal, .jcarousel-skin-tango-green-top-bande .jcarousel-container-horizontal {
+	width:100% !important;
+}
+.jcarousel-skin-tango-green .jcarousel-clip-horizontal{
+	width:95% !important;
+}
+
+
+
+
+
+
+/************ Date Spark Page ******************/
+
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.logo-small-how-will-text-box {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 91%;
+}
+.date-spark-main-box{
+	width:100%;
+}
+.margin-none-textarea textarea{
+	width:95%;
+}
+.spark-row-box{
+	width:95%;
+	margin-left:10px;
+}
+.spark-row-box .select-spark{
+	width:100%;
+}
+
+/************ We Love Page ******************/
+
+.we-love-main-search-box{
+	width:100%;
+}
+.love-search-box{
+	width:100%;
+}
+.love-search-box .input-search-love{
+	width:86.8%;
+}
+.love-email-online-box{
+	float:left;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+
+/************  Profile Visibility Page  ******************/
+
+.profile-visibility{
+	 width:93%;
+	 margin-left:7px;
+	 margin-bottom:10px;
+}
+.your-profile-text-box{
+	width:100%;
+}
+.yor-pro-txt-box{
+	width:100%;
+	margin-top:10px;
+	margin-left:0px;
+}
+.yor-pro-visible-box{
+	width:100%;
+}
+
+
+
+
+
+
+/************  User Profile Page  ******************/
+
+
+.user-profile-main-box{
+	width:100%;
+}
+.favorites-box{
+	border-right:1px solid #e4d6cf;
+}
+.favorites-want-box{
+	width:100%;
+}
+.favorites-want-box{
+	width:100%;
+}
+.take-look-box{
+	width:100%;
+	margin-left:10px;
+}
+.profile-id-box{ 
+	margin-left: 10px;
+    width:92%;
+}
+.profile-id-box-right{
+	width:100%;
+}
+.want-to-box{
+	margin-left:30px;
+}
+
+
+/************  Comments Page  ******************/
+
+.comments-pic-input-box{
+	width:100%;
+}
+.comments-pic-input-box .textarea{
+	width:87%;
+}
+.like-comments-box{
+	width:100%;
+}
+
+
+
+
+
+
+
+/************  Group Page  ******************/
+
+.group-right-part{
+	width:100%;
+	padding:0px;
+	float:left;
+}
+.group-left-part{
+	margin-left:10px;
+}
+.group-right-part-banner{
+	width:100%;
+}
+.group-right-part-banner img{
+	width:100%;
+}
+.write-photo-post-box{
+	width:100%;
+}
+.write-photo-post-hdng{
+	width:100%;
+	margin-left:10px;
+	
+}
+
+
+/************  Blog Page  ******************/
+
+.blog-main-box{
+	width:100%;
+}
+.blog-heading-box{
+	width:97%;
+}
+.blog-1-box{
+	width:95%;
+	padding:2%;
+}
+
+
+
+
+/************  Messages Page  ******************/
+
+.inbox-mail-box{
+	width:100%;
+}
+.inbox-box{
+	width:20%;
+}
+.mail-box{
+	width:75%;
+	padding:0px 0px 0px 15px; 
+	margin-top:0px;
+	border-left:1px solid #e4d6cf;
+}
+.mail-box-1{
+	width:100%;
+	min-height:105px;
+}
+.mail-text-box{
+	width:100%;
+}
+
+/************  Subscribtion 1 Page  ******************/
+
+.logo-and-user-detail{
+	width:100%;
+}
+.package-user-detail-box{
+	width:77.5%;
+	padding:8px;
+	min-height:170px;
+}
+.sbuscription-package-box{
+	width:100%;
+	margin-top:40px;
+}
+.sbuscription-package-box h1{
+	line-height:30px;
+	margin-bottom:0px
+}
+.special-offer-main-box{
+		width:80%;
+}
+.special-offer-text-box{
+	border-right:none;
+	width:38%;
+}
+.package-basic-text-box{
+	width:30%;
+	float:left;
+	margin-left:5px;
+}
+.select-plan-btn{
+	float:left;
+	margin:30px 0 10px 0px;
+}
+.great-saving-main-box{
+	width:80%;
+}
+.great-month-box{
+	width:29%;
+	border-right:none;
+}
+.great-month-text-box{
+	width:30%;
+	height:65px;
+}
+.save-bg-text-box{
+	margin-bottom:0px;
+}
+
+.select-plan-2-btn{
+	margin:20px 0 10px 0px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width:600px){
+.mdl-container{
+	width:100%;
+}
+.logo-form-box{
+	width:100%;
+}
+.logo-box{
+	width:90%;
+	margin-left:40px;
+}
+.logo-box img{
+}
+.form-box{
+	width:61%;
+	float:left;
+	margin-left:68px;
+    margin-right:0px;
+}
+.text-hdng-footer-box{
+	width:100%;
+}
+.text-hdng-box{
+	width:100%;
+}
+.text-hdng-box img{
+	width:100%;
+}
+.footer-box{
+	width:100%;
+}
+.social-icon-box{
+	width:66%;
+}
+.develope{
+	width:100%;	
+	background:rgba(01, 01, 01, 0.5);
+	height:30px;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/******************** Search Page ***********************/
+
+.find-out-box{
+	width:100%;
+}
+.find-out-box img{
+	width:100%;
+}
+.inner-contant-box{
+	width:99%;
+	padding:0px;
+}
+.content-top-bg-box{
+	width:98%;
+	margin-top:15px;
+	margin-left:1%;
+	display:none;
+}
+.matches-found-you-searched{
+	width:95%;
+	margin-left:1%;
+	padding:3px;
+}
+.matches-heading-search-ul-box{
+	width:100%;
+}
+.matches-heading-search-ul-box h2{
+	width:36%;
+	margin-left:3%;
+}
+.matches-heading-search-ul-box ul{
+	margin-top:5px;
+	float:left;
+}
+.matches-heading-search-ul-box ul li a{
+	padding:0px 10px;
+}
+.matches-profile-box{
+	width:98%;
+	padding:2px;
+}
+.next-prev-box{
+	width:57%;
+	float:right;
+	margin:10px 0px 0px 25px;
+}
+.next-prev-box ul{
+	width:150px;
+	margin-top:0px;
+}
+.img-boxses-box{
+	width:100%;
+}
+.img-box-1{
+	margin-left:67px;
+}
+.you-searched-box{
+	float:left;
+	margin-top:20px;
+	width:96%;
+	margin-left:2%;
+}
+.basic-edit-box{
+	width:100%;
+}
+.coustumize-box{
+	width:100%;
+	float:left;
+}
+.coustumize-ul-li-box{
+	width:94%;
+}
+.footer-inr-box{
+	width:100%;
+}
+.copy-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 0px 0px;
+}
+.develope-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 10px 0px;
+}
+.complete-box{
+	margin:10px 0px 0px 0px;
+	float:right;
+}
+/******************** Registration Page ***********************/
+.top-manu-bg-box{
+	width:97%;
+	float:left;
+	margin-left:1%;
+	margin-top:8%;
+}
+.user-email-box{
+	margin-left:10px;
+}
+.inner-reg-contant-box{
+	width:98%;
+	padding:12px 2px 12px 2px;
+}
+.menu-inr-box{
+	width:100%;
+}
+.regt-top-bg-box{
+	display:none;
+}
+.register-form-text-box{
+	width:95%;
+	margin-left:1%;
+	padding:5px;
+}
+.register-button-box{
+	width:100%;
+}
+.register-button-box h1{
+	height:52px;
+}
+.register-button-box a.base{
+	margin-bottom:10px;
+}
+.buttons-box{
+	width:100%;
+}
+.bullet-icon{
+	margin:2px 0px 10px 2px;
+}
+.dark-brown-prev-btn-box{
+	width:25%;
+}
+.dark-brown-next-btn-box{
+	width:25%;
+}
+.content-inr-part-box{
+	width:100%;
+}
+
+
+/************ My Account Page ******************/
+
+.profile-account-box{
+	width:92%;
+	margin-left:4px;
+}
+.profile-text-box{
+	width:100%;
+	min-height:400px;
+}
+.profile-pic-box{
+	float:left;
+	width:100%;
+}
+.profile-pic-text-box{
+	float:left;
+	width:100%;
+	margin:11px 0px 0px 20px;
+}
+.profile-account-content-box{
+	width:94%;
+	padding:10px 10px;
+	text-align:justify;
+	margin-top:0px;
+}
+
+
+
+/************ Subscription Page 1 ******************/
+
+.subscription-main-box{
+	width:100%;
+}
+.add-more-box{
+	width:100%;
+	clear:both;
+}
+.add-morer-content-box{
+	width:100%;
+	margin-left:0px;
+}
+.profile-text-box12{
+	width:70%;
+}
+.profile-pic-text-box12{
+	width:100%;
+	margin-left:20px;
+	float:left;
+	margin-top:15px;
+}
+.main-chat-content-box {
+    height:373px;
+    left: 235px;
+    top: 12px;
+}
+
+
+/************ Subscription Page 3 ******************/
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.creadit-box {
+    border-right:medium none;
+    margin-left:80px;
+    width:85%;
+}
+.billing-box{
+	width:85%;
+	float:left;
+	padding-left:80px;
+}
+.payment-form-text {
+    padding:0 15px;
+    width:90%;
+}
+.review-subscribe-box {
+    margin:25px 85px;
+    width:64%;
+}
+
+
+
+/************ My Profile  ******************/
+
+.photos-box-left{
+	width:100%;
+}
+.photos-box-right{
+	width:65%;
+	float:left;
+}
+.about-me-box{
+	width:100%;
+}
+.main-profile-photos-cont-box{
+	width:100%;
+}
+.photos-thum-main-box{
+	float:left;
+}
+.photos-of-pro-box{
+	width:256px;
+}
+.photos-of-pro-box img{
+	width:256px;
+}
+.about-me-box textarea{
+	width:90%;
+	margin-left:1%;
+}
+.profile-insights-your-publ{
+	width:100%;
+	float:left;
+}
+.profile-insights{
+	width:90%;
+	margin-top:10px;
+	margin-left:1%;
+}
+.your-public-box{
+	width:90%;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+
+
+
+/************ Search Inr Page 2 ******************/
+
+.heading-part-box{
+	width:100%;
+}
+.srch-pro-detail-box1{
+	width:100%;
+}
+.srch-pro-text-box{
+	width:92%;
+	float:left;
+}
+.social-icon-send-link{
+	width:100%;
+}
+.send-request{
+	float:left;
+}
+.send-request .btn input[type="button"]{
+	float:right;
+}
+.srch-script-box{
+	width:100%;
+}
+.jcarousel-skin-tango-green .jcarousel-container-horizontal, .jcarousel-skin-tango-green-top-bande .jcarousel-container-horizontal {
+	width:100% !important;
+}
+.jcarousel-skin-tango-green .jcarousel-clip-horizontal{
+	width:95% !important;
+}
+
+
+
+
+/************ Date Spark Page ******************/
+
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.logo-small-how-will-text-box {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 91%;
+}
+.date-spark-main-box{
+	width:100%;
+}
+.margin-none-textarea textarea{
+	width:99%;
+}
+.spark-row-box{
+	width:95%;
+	margin-left:10px;
+}
+.spark-row-box .select-spark{
+	width:100%;
+}
+
+
+
+/************ We Love Page ******************/
+
+.we-love-main-search-box{
+	width:100%;
+}
+.love-search-box{
+	width:100%;
+}
+.love-search-box .input-search-love{
+	width:78.9%;
+}
+.love-email-online-box{
+	float:left;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+/************  Profile Visibility Page  ******************/
+
+.profile-visibility{
+	 width:88%;
+	 margin-left:7px;
+	 margin-bottom:10px;
+}
+.your-profile-text-box{
+	width:100%;
+}
+.yor-pro-txt-box{
+	width:100%;
+	margin-top:10px;
+	margin-left:0px;
+}
+.yor-pro-visible-box{
+	width:100%;
+}
+
+
+
+
+
+/************  User Profile Page  ******************/
+
+
+.user-profile-main-box{
+	width:100%;
+}
+.favorites-box{
+	border-right:none;
+}
+.favorites-want-box{
+	width:100%;
+}
+.favorites-want-box{
+	width:100%;
+}
+.take-look-box{
+	width:100%;
+	margin-left:10px;
+}
+.profile-id-box{ 
+	margin-left: 10px;
+    width:87%;
+}
+.profile-id-box-right{
+	width:100%;
+}
+.want-to-box{
+	margin-left:10px;
+}
+
+
+/************  Comments Page  ******************/
+
+.comments-pic-input-box{
+	width:100%;
+}
+.comments-pic-input-box .textarea{
+	width:79%;
+}
+.like-comments-box{
+	width:100%;
+}
+
+
+
+
+/************  Group Page  ******************/
+
+.group-right-part{
+	width:100%;
+	padding:0px;
+	float:left;
+}
+.group-left-part{
+	margin-left:10px;
+}
+.group-right-part-banner{
+	width:100%;
+}
+.group-right-part-banner img{
+	width:100%;
+}
+.write-photo-post-box{
+	width:100%;
+}
+.write-photo-post-hdng{
+	width:100%;
+	margin-left:10px;
+	
+}
+
+/************  Blog Page  ******************/
+
+.blog-main-box{
+	width:100%;
+}
+.blog-heading-box{
+	width:97%;
+}
+.blog-1-box{
+	width:95%;
+	padding:2%;
+}
+
+
+
+/************  Messages Page  ******************/
+
+
+.inbox-mail-box{
+	width:100%;
+}
+.inbox-box{
+	width:100%;
+}
+.mail-box{
+	width:94%;
+	padding:10px;
+	margin-top:10px;
+	border-left:none;
+}
+.mail-box-1{
+	width:100%;
+	min-height:125px;
+}
+.mail-text-box{
+	width:100%;
+}
+
+
+/************  Subscribtion 1 Page  ******************/
+
+
+.logo-and-user-detail{
+	width:100%;
+}
+.package-user-detail-box{
+	width:93%;
+	padding:8px;
+	min-height:170px;
+}
+.sbuscription-package-box{
+	width:100%;
+	margin-top:40px;
+}
+.sbuscription-package-box h1{
+	line-height:30px;
+	margin-bottom:0px
+}
+.special-offer-main-box{
+		width:100%;
+}
+.special-offer-text-box{
+	border-right:none;
+	width:38%;
+}
+.package-basic-text-box{
+	width:37%;
+	float:left;
+	margin-left:5px;
+}
+.select-plan-btn{
+	float:right;
+	margin:10px 0 10px 0px;
+}
+.great-saving-main-box{
+	width:100%;
+}
+.great-month-box{
+	width:36%;
+	border-right:none;
+}
+.great-month-text-box{
+	width:25%;
+	height:80px;
+}
+.save-bg-text-box{
+	margin-bottom:0px;
+}
+
+.select-plan-2-btn{
+	margin:10px 0 10px 0px;
+}
+
+}
+
+
+@media only screen and (max-width:360px){
+
+.mdl-container{
+	width:100%;
+}
+.logo-form-box{
+	width:100%;
+}
+.logo-box{
+	width:100%;
+	margin-left:0px;
+}
+.logo-box img{
+	width:97%;
+}
+.form-box{
+	width:87%;
+	float:left;
+	margin-left:0px;
+    margin-right:0px;
+}
+.text-hdng-footer-box{
+	width:100%;
+}
+.text-hdng-box{
+	width:100%;
+}
+.text-hdng-box img{
+	width:100%;
+}
+.footer-box{
+	width:100%;
+}
+.social-icon-box{
+	width:73%;
+}
+.develope{
+	width:100%;	
+	background:rgba(01, 01, 01, 0.5);
+	height:30px;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/******************** Search Page ***********************/
+
+.find-out-box{
+	width:100%;
+}
+.find-out-box img{
+	width:100%;
+}
+.inner-contant-box{
+	width:99%;
+	padding:0px;
+}
+.content-top-bg-box{
+	width:98%;
+	margin-top:15px;
+	display:none;
+	margin-left:1%;
+}
+.matches-found-you-searched{
+	width:95%;
+	margin-left:1%;
+	padding:3px;
+}
+.matches-heading-search-ul-box{
+	width:100%;
+}
+.matches-heading-search-ul-box h2{
+	width:96%;
+	margin-left:3%;
+}
+.matches-heading-search-ul-box ul{
+	margin-top:5px;
+	float:left;
+}
+.matches-heading-search-ul-box ul li a{
+	padding:0px 10px;
+}
+.matches-profile-box{
+	width:98%;
+	padding:2px;
+}
+.next-prev-box{
+	width:82%;
+	float:left;
+	margin:10px 0px 0px 25px;
+}
+.next-prev-box ul{
+	width:150px;
+	margin-top:0px;
+}
+.img-boxses-box{
+	width:100%;
+}
+.img-box-1{
+	margin-left:0px;
+}
+.you-searched-box{
+	float:left;
+	margin-top:20px;
+	width:100%;
+	margin-left:0%;
+}
+.basic-edit-box{
+	width:100%;
+}
+.coustumize-box{
+	width:100%;
+	float:left;
+}
+.coustumize-ul-li-box{
+	width:94%;
+}
+.footer-inr-box{
+	width:100%;
+}
+.copy-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 0px 0px;
+}
+.develope-inr-box{
+	width:100%;
+	text-align:center;
+	margin:10px 0px 10px 0px;
+}
+.complete-box{
+	margin:10px 0px 0px 0px;
+	float:left;
+}
+
+/******************** Registration Page ***********************/
+.top-manu-bg-box{
+	width:97%;
+	float:left;
+	margin-left:1%;
+	margin-top:8%;
+}
+.user-email-box{
+	margin-left:10px;
+}
+.inner-reg-contant-box{
+	width:98%;
+	padding:12px 2px 12px 2px;
+}
+.menu-inr-box{
+	width:100%;
+}
+.regt-top-bg-box{
+	display:none;
+}
+.register-form-text-box{
+	width:95%;
+	margin-left:1%;
+	padding:5px;
+}
+.register-button-box{
+	width:100%;
+}
+.register-button-box h1{
+	height:52px;
+}
+.register-button-box a.base{
+	margin-bottom:10px;
+}
+.buttons-box{
+	width:100%;
+}
+.bullet-icon{
+	margin:10px 0px 10px 80px;
+}
+.dark-brown-prev-btn-box{
+	width:100%;
+}
+.dark-brown-next-btn-box{
+	width:100%;
+}
+.content-inr-part-box{
+	width:100%;
+}
+
+
+/************ My Account Page ******************/
+
+.profile-account-box{
+	width:89%;
+	margin-left:4px;
+}
+.profile-text-box{
+	width:100%;
+	min-height:400px;
+}
+.profile-pic-box{
+	float:left;
+	width:100%;
+}
+.profile-pic-text-box{
+	float:left;
+	width:100%;
+	margin:11px 0px 0px 20px;
+}
+.profile-account-content-box{
+	width:94%;
+	padding:10px 10px;
+	text-align:justify;
+	margin-top:0px;
+}
+
+
+
+/************ Subscription Page 1 ******************/
+
+.subscription-main-box{
+	width:100%;
+}
+.add-more-box{
+	width:100%;
+	clear:both;
+}
+.add-morer-content-box{
+	width:100%;
+	margin-left:0px;
+}
+.profile-text-box12{
+	width:70%;
+}
+.profile-pic-text-box12{
+	width:100%;
+	margin-left:20px;
+	float:left;
+	margin-top:15px;
+}
+.main-chat-content-box{   
+	height:93px;
+    left:38px;
+    top:473px;
+}
+
+
+
+/************ Subscription Page 3 ******************/
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.creadit-box {
+    border-right:none;
+    width:100%;
+	margin-left:5px;
+}
+.billing-box{
+	width:100%;
+	float:left;
+	padding-left:1px;
+}
+.payment-form-text {
+    padding: 0 15px;
+    width: 90%;
+}
+.review-subscribe-box{
+	width:100%;
+	margin:25px 0px;
+}
+
+/************ My Profile  ******************/
+
+.photos-box-left{
+	width:100%;
+}
+.photos-box-right{
+	width:92%;
+	float:left;
+}
+.about-me-box{
+	width:100%;
+}
+.main-profile-photos-cont-box{
+	width:100%;
+}
+.photos-thum-main-box{
+	float:left;
+}
+.photos-of-pro-box{
+	width:180px;
+}
+.photos-of-pro-box img{
+	width:180px;
+}
+.about-me-box textarea{
+	width:90%;
+	margin-left:1%;
+}
+.profile-insights-your-publ{
+	width:100%;
+	float:left;
+}
+.profile-insights{
+	width:90%;
+	margin-top:10px;
+	margin-left:1%;
+}
+.your-public-box{
+	width:90%;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+/************ Search Inr Page 2 ******************/
+
+.heading-part-box{
+	width:100%;
+}
+.srch-pro-detail-box1{
+	width:100%;
+}
+.srch-pro-text-box{
+	width:92%;
+	float:left;
+}
+.social-icon-send-link{
+	width:100%;
+}
+.send-request{
+	float:left;
+}
+.send-request .btn input[type="button"]{
+	float:left;
+}
+.srch-script-box{
+	width:100%;
+}
+.jcarousel-skin-tango-green .jcarousel-container-horizontal, .jcarousel-skin-tango-green-top-bande .jcarousel-container-horizontal {
+	width:100% !important;
+}
+.jcarousel-skin-tango-green .jcarousel-clip-horizontal{
+	width:95% !important;
+}
+
+
+/************ Date Spark Page ******************/
+
+
+.payment-form-box{
+	width:100%;
+}
+.creadit-paypal-box{
+	width:100%;
+}
+.creadit-billing-box{
+	width:100%;
+}
+.logo-small-how-will-text-box{
+	width:100%;
+	margin-bottom:10px;
+}
+.date-spark-main-box{
+	width:100%;
+}
+.margin-none-textarea textarea{
+	width:95%;
+}
+.spark-row-box{
+	width:95%;
+	margin-left:10px;
+}
+.spark-row-box .select-spark{
+	width:100%;
+}
+
+
+
+/************ We Love Page ******************/
+
+.we-love-main-search-box{
+	width:100%;
+}
+.love-search-box{
+	width:100%;
+}
+.love-search-box .input-search-love{
+	width:68.4%;
+}
+.love-email-online-box{
+	float:left;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+/************  Profile Visibility Page  ******************/
+
+.profile-visibility{
+	 width:82%;
+	 margin-left:7px;
+	 margin-bottom:10px;
+}
+.your-profile-text-box{
+	width:100%;
+}
+.yor-pro-txt-box{
+	width:100%;
+	margin-top:10px;
+	margin-left:0px;
+}
+.yor-pro-visible-box{
+	width:100%;
+}
+
+
+
+/************  User Profile Page  ******************/
+
+
+.user-profile-main-box{
+	width:100%;
+}
+.favorites-box{
+	border-right:none;
+}
+.favorites-want-box{
+	width:100%;
+}
+.favorites-want-box{
+	width:100%;
+}
+.take-look-box{
+	width:100%;
+	margin-left:10px;
+}
+.profile-id-box{ 
+	margin-left: 10px;
+    width: 80%;
+}
+.profile-id-box-right{
+	width:100%;
+}
+.want-to-box{
+	margin-left:10px;
+}
+
+
+/************  Comments Page  ******************/
+
+.comments-pic-input-box{
+	width:100%;
+}
+.comments-pic-input-box .textarea{
+	width:66%;
+}
+.like-comments-box{
+	width:100%;
+}
+
+
+/************  Group Page  ******************/
+
+.group-right-part{
+	width:100%;
+	padding:0px;
+	float:left;
+}
+.group-left-part{
+	margin-left:10px;
+}
+.group-right-part-banner{
+	width:100%;
+}
+.group-right-part-banner img{
+	width:100%;
+}
+.write-photo-post-box{
+	width:100%;
+}
+.write-photo-post-hdng{
+	width:100%;
+	margin-left:10px;
+	
+}
+
+/************  Blog Page  ******************/
+
+.blog-main-box{
+	width:100%;
+}
+.blog-heading-box{
+	width:97%;
+}
+.blog-1-box{
+	width:95%;
+	padding:2%;
+}
+
+
+/************  Messages Page  ******************/
+
+
+.inbox-mail-box{
+	width:100%;
+}
+.inbox-box{
+	width:100%;
+}
+.mail-box{
+	width:94%;
+	padding:10px;
+	margin-top:10px;
+	border-left:none;
+}
+.mail-box-1{
+	width:100%;
+	min-height:150px;
+}
+.mail-text-box{
+	width:100%;
+}
+
+
+/************  Subscribtion 1 Page  ******************/
+
+
+.logo-and-user-detail{
+	width:100%;
+}
+.package-user-detail-box{
+	width:93%;
+	padding:8px;
+	min-height:170px;
+}
+.sbuscription-package-box{
+	width:100%;
+	margin-top:40px;
+}
+.sbuscription-package-box h1{
+	line-height:30px;
+	margin-bottom:0px
+}
+.special-offer-main-box{
+		width:100%;
+}
+.special-offer-text-box{
+	border-right:none;
+	width:55%;
+}
+.package-basic-text-box{
+	width:40%;
+	float:right;
+	margin-left:5px;
+}
+.select-plan-btn{
+	float:right;
+	margin:10px 0 0 0px;
+}
+.great-saving-main-box{
+	width:100%;
+}
+.great-month-box{
+	width:38%;
+	border-right:none;
+}
+.great-month-text-box{
+	width:35%;
+	height:80px;
+}
+.save-bg-text-box{
+	margin-bottom:10px;
+}
+.select-plan-2-btn{
+	margin:10px 0px 0px 0px;
+}
+}

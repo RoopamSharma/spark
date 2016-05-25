@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^activate/([a-zA-Z0-9]+)$ activate.php?q=$1
